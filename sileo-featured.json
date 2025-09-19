@@ -1,0 +1,13 @@
+{
+    "class": "FeaturedBannersView",
+    "itemSize": "{330, 180}",
+    "itemCornerRadius": 10,
+    "banners": [
+        {
+            "url": "https://apt.haonp.top/images/nprepo/pic5.png",
+            "title": "",
+            "package": "com.nprepo.announce",
+            "hideShadow": true
+        }
+    ]
+}

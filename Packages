@@ -1,0 +1,793 @@
+Package: com.nprepo.announce
+Version: 1.0
+Name: 🐮🍺 - 公告板📢
+Architecture: iphoneos-arm64
+Maintainer: Hao <2795388181@qq.com>
+Depends: mobilesubstrate, firmware (>= 12.0), firmware (<< 18.0)
+Filename: ./debs/com.nprepo.announce_1.0_iphoneos-arm64.deb
+Size: 824
+MD5sum: d9dadf4bcb3bedbd9b9cc4e5d949bb75
+SHA1: e763abeaf0973179101247ac58fcf1c4783e33f3
+SHA256: 8a8981377ce02d1aafe97ce2d651e17e6b49f1e38143e019941868d249997b0f
+Description: 本源更新纯随缘分，源内插件均来自互联网，安装以后出现异常与本源无关
+Tag: cydia::commercial
+Author: Hao <2795388181@qq.com>
+Section: NP-公告
+Icon: https://apt.haonp.top/images/nprepo/logo3.png
+Depiction: https://apt.haonp.top/pages/announce.html
+Sileodepiction: https://apt.haonp.top/images/nprepo/js.json
+
+Name: Appfixes
+Version: 5.2.0.13
+Package: xyz.dkitty.appfixes
+Author: 喵咪Kitty
+Maintainer: MMK <3142143936@qq.com>
+Section: NP-System
+Architecture: iphoneos-arm
+Depends: mobilesubstrate (>=0.9.5000), firmware (>= 5.0)
+Description: Fix some app errors, such as Game Center and iMessage.
+Filename: ./debs/appfixes_5.2.0.13.deb
+Size: 10630
+MD5sum: 36e9057e8b3898fb1af599dd513f866f
+Priority: optional
+
+Name: 关机增强
+Version: 1.0.5
+Package: aptso.cn.powerdown
+Author: Ma Jun <majun3@gmail.com>
+Maintainer: 氵刀八木 <aptso@aptso.cn>
+Section: NP-System
+Architecture: iphoneos-arm
+Depends: firmware (>= 4.0), mobilesubstrate (>= 0.9.5000)
+Description: Shutdown enhancement.
+Filename: ./debs/Shutdown.deb
+Size: 67720
+MD5sum: c9850016ffb3aae9c73e6fae8ac6b844
+Priority: optional
+Conflicts: com.gjbsoftware.gpowerpro, com.abcydia.powerdown
+
+Name: 屏蔽无SIM卡_iOS6
+Version: 1.0
+Package: uk.invoxiplaygames.simalertsuppression
+Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Section: NP-System
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, firmware (>=5.0)
+Description: Removes SIM-related alerts from SpringBoard
+Filename: ./debs/BlockSimFree_iOS6.deb
+Size: 2810
+MD5sum: 93cd24e6c82108068e54435453587ac4
+Priority: optional
+Conflicts: uk.invoxiplaygames.letmestealinpeace
+Depiction: http://cydia.invoxiplaygames.uk/dp/simalertsuppression.php
+SileoDepiction: https://cydia.invoxiplaygames.uk/dp/simalertsuppression.json
+
+Name: 图标任意摆放2.0
+Version: 2.0.5
+Package: com.xsellize.gridlock2
+Author: repo@xsellize.com
+Maintainer: repo@xsellize.com
+Section: NP-System
+Architecture: iphoneos-arm
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), com.chpwn.iconsupport (>= 1.9.0-2), firmware (>= 3)
+Pre-Depends: firmware (<< 3.2) | firmware (>= 4.0)
+Description: Place your icons *anywhere* on the grid!
+Filename: ./debs/Gridlock2.0.deb
+Size: 35116
+MD5sum: 3611ed3f7263ff819c70963e03b94dca
+Priority: optional
+Conflicts: com.chpwn.gridlock
+Replaces: com.xsellize.gridlock
+Depiction: http://apt.xsellize.com/depic/gridlock2
+Homepage: http://apt.xsellize.com/depic/gridlock2
+Sponsor: http://xsellize.com
+
+Name: Classic YouTube App
+Version: 1.0
+Package: uk.invoxiplaygames.youtube
+Author: InvoxiPlayGames
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Section: NP-App
+Architecture: iphoneos-arm
+Depends: firmware (>= 6.0), firmware (<= 7.0)
+Description: Returns the classic YouTube app to iOS 6.
+Filename: ./debs/iOS6YouTube.deb
+Size: 311238
+MD5sum: 1b0f3fde2a5c22be0478ec624d9ec98e
+Priority: optional
+Conflicts: com.tekwik.youtube
+Depiction: http://cydia.invoxiplaygames.uk/dp/youtube.php
+
+Name: AppSync Unified关闭签名
+Version: 116.0
+Package: com.dao.appsyncunified
+Author: Karen, Linus Yang
+Maintainer: Karen, Linus Yang
+Section: AppSync系列
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, firmware (<= 16.5.1)
+Conflicts: ai.akemi.appsyncunified, xyz.cypwn.appsyncunified, byg.iosios.net.appsyncunified
+Replaces: ai.akemi.appsyncunified
+Provides: ai.akemi.appsyncunified (= 112.0)
+Filename: ./debs/AppSync/AppSyncUnified_116.0.deb
+Size: 35372
+MD5sum: 32c6b73bc574a4e8425bc92a9283ccd4
+SHA1: 0d372b853b5fbcb02985f8112b545fa54a0e8d5e
+SHA256: e22c748e3fe06a9b9687247d172e584c087225c50fcf0123b3a844d18fb3eb1c
+Description: 允许在越狱版 Filza 中安装未签名的 iOS 应用程序
+
+Name: AppSync Unified(rootless)
+Package: com.dao.appsyncunified
+Version: 116.0
+Architecture: iphoneos-arm64
+Maintainer: Karen, Linus Yang
+Depends: mobilesubstrate, firmware (<= 16.5.1)
+Conflicts: ai.akemi.appsyncunified, xyz.cypwn.appsyncunified, byg.iosios.net.appsyncunified
+Replaces: ai.akemi.appsyncunified
+Provides: ai.akemi.appsyncunified (= 112.0)
+Filename: ./rootless/AppSync Unified(rootless)_116.0.deb
+Size: 34052
+MD5sum: c62d03f53e68c8eccb80c2d27f91ea2b
+SHA1: fe6247d49bea2ff0d76be7e04c388391bf4f917e
+SHA256: d6da4a7b7ac4e4a0f5d2aa0a6ae6baaa53f629d17fa8aaeb6c44735bd5f9d287
+Section: AppSync系列
+Description: 允许在越狱版 Filza 中安装未签名的 iOS 应用程序；目前明美源gg中，上架备份。
+Author: Karen, Linus Yang
+
+Package: us.hackulo.appsync31
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Genius Blog <appsync@hackulo.us>
+Pre-Depends: firmware (= 3.1) | firmware (= 3.1.1) | firmware (= 3.1.2) | firmware (= 3.1.3) | firmware (= 3.1.4)
+Depends: com.hackulo.us.sourcegui
+Filename: ./debs/AppSync/us.hackulo.appsync31_1.0.1_iphoneos-arm.deb
+Size: 296492
+MD5sum: 15c95f217fa12e22e36012c6db84ad41
+SHA1: 2174a708aa5c0eedb61472f0b073771c848708b5
+SHA256: cf421bb42914317cdbe5b901ee713bfb4cbf263f03baf8fdff5ca40f747316b0
+Section: AppSync系列
+Priority: standard
+Author: Reilly <appsync@hackulo.us>
+Name: AppSync for OS 3.1
+
+Package: appsync456.178
+Version: 2.3-5
+Architecture: iphoneos-arm
+Maintainer: 178 Team <apt@178.com>
+Pre-Depends: firmware (>= 4.0), firmware (<< 7.0)
+Depends: mobilesubstrate
+Conflicts: com.sinfuliphone.appsync40plus, com.sinfuliphone.appsync50plus, appsync50plus2.178, appsync40plus.178, com.xsellize.appsync40plus, com.xsellize.appsync50plus
+Replaces: com.sinfuliphone.appsync40plus, com.sinfuliphone.appsync50plus, appsync50plus2.178, appsync40plus.178, com.xsellize.appsync40plus, com.xsellize.appsync50plus
+Filename: ./debs/AppSync/appsync456.178_2.3-5_iphoneos-arm.deb
+Size: 4386
+MD5sum: 9c1a035cf3c6572c5cc04b2e0ea08ec9
+SHA1: c6aa447ed44e4f249b68775ffdaf7913aea6e69f
+SHA256: d44059f24b01c6cec28ff3ca75cd1648ee789bd88c99383205a23f1d6a66fb20
+Section: AppSync系列
+Author: 178 Team <apt@178.com>
+Name: AppSync for IOS 4
+
+Package: com.91.us.hackulo.appsync50plus
+Version: 2.2
+Architecture: iphoneos-arm
+Essential: no
+Maintainer: 91手机论坛技术组 <ibbs.91.com>
+Installed-Size: 23
+Pre-Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: us.hackulo.appsync50
+Replaces: us.hackulo.appsync50
+Provides: appsync
+Filename: ./debs/AppSync/com.91.us.hackulo.appsync50plus_2.2_iphoneos-arm.deb
+Size: 4434
+MD5sum: a4319f5d533e724b8a5b622408f04ee2
+SHA1: f2013878e45a22f7c0c63cd12f914af2193c47ef
+SHA256: bb5459cd53e4820d3bdd1e1f1425cb4a38de9c392cebb0f0515570a49d57bc09
+Section: AppSync系列
+Priority: standard
+Tag: role::enduser
+Author: Dissident <apps@hackulo.us>
+Name: AppSync for iOS 5.0+
+
+Package: com.91.hackyouriphone.appsync
+Version: 2.3-1
+Architecture: iphoneos-arm
+Essential: no
+Maintainer: 91手机论坛技术组 <ibbs.91.com>
+Installed-Size: 24
+Pre-Depends: firmware (>= 6.0)
+Depends: mobilesubstrate
+Conflicts: us.hackulo.appsync50plus
+Filename: ./debs/AppSync/com.91.hackyouriphone.appsync_2.3-1_iphoneos-arm.deb
+Size: 4416
+MD5sum: 74cf511d561a1f20de67d3c5eb489fcf
+SHA1: b34fc2de980d128c3ddf279a073a09454f03c516
+SHA256: 6586523b90c8b8bc01553af77a2ec299521ec8aaaac5ec134b574776e98f9022
+Section: AppSync系列
+Priority: standard
+Tag: role::enduser
+Author: HYI <repo@hackyouriphone.org>
+Name: AppSync for iOS 6
+
+Package: com.91.hackyouriphone.appsync7
+Version: 4.0-2
+Architecture: iphoneos-arm
+Essential: no
+Maintainer: 91手机论坛技术组 <ibbs.91.com>
+Pre-Depends: firmware (>= 7.0), mobilesubstrate
+Depends: mobilesubstrate
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus
+Replaces: us.hackulo.appsync50
+Provides: appsync
+Filename: ./debs/AppSync/com.91.hackyouriphone.appsync7_4.0-2_iphoneos-arm.deb
+Size: 4000
+MD5sum: 5f2eb3143668af37d0b911b75411ede0
+SHA1: ba138624f443b21b68ab2d00c6a8bf63d0b8ac68
+SHA256: d0eb48b1d8f72a8a432e958b17e9f60fa5768f8c41b8d370d8756ca14e835038
+Section: AppSync系列
+Priority: standard
+Author: Linus Yang, Karen Tsai <repo@hackyouriphone.org>
+Name: AppSync for iOS 7.0+
+
+Package: appsyncunified.178
+Version: 5.3-1
+Architecture: iphoneos-arm
+Maintainer: 178 Team <apt@178.com>
+Installed-Size: 284
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, ppsync.178
+Replaces: us.hackulo.appsync50
+Provides: appsync
+Filename: ./debs/AppSync/appsyncunified.178_5.3-1_iphoneos-arm.deb
+Size: 27068
+MD5sum: db226a243313a13366b3a4d6208f5c2b
+SHA1: db61275326407ce2c1e6b6a92e6d80951e43b7c7
+SHA256: f8d87db60f2500717a743ca7cf460d3d4172f227db9919d797b02583b576dbec
+Section: AppSync系列
+Author: Linus Yang, Karen Tsai <angelXwind@angelxwind.net>
+Name: Appsync for iOS8
+
+Package: com.91.net.angelxwind.appsyncunified
+Version: 5.6-1
+Architecture: iphoneos-arm
+Essential: no
+Maintainer: 91手机论坛技术组 <ibbs.91.com>
+Installed-Size: 140
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178
+Replaces: us.hackulo.appsync50
+Provides: appsync
+Filename: ./debs/AppSync/com.91.net.angelxwind.appsyncunified_5.6-1_iphoneos-arm.deb
+Size: 29566
+MD5sum: 78bf3b641f338d273c4be4cd380f13c7
+SHA1: 533281168ab005fe9073ae9f71811f342972fa7a
+SHA256: 30cc4a7ca601ee1fc4fd807311671bb8732d4ca86bbf8a0799f8f4f1645f14f2
+Section: AppSync系列
+Priority: standard
+Tag: role::enduser
+Author: Feng.com<angelXwind@angelxwind.net>
+Name: AppSync for iOS9
+
+Package: com.sinfuliphone.ifile
+Version: 1.4.2-1
+Architecture: iphoneos-arm
+Maintainer: SiNfuL iPhone <whatever@gmail.com>
+Depends: com.sinfuliphone.repoprep, file-cmds, zip, unzip, p7zip, gzip, bzip2, unrar
+Conflicts: eu.heinelt.ifile
+Replaces: eu.heinelt.ifile
+Filename: ./debs/iFile_v1.4.2-1_Cracked.deb
+Size: 2955602
+MD5sum: f977aa7f3070e07d4c80cdc6211a1b5f
+SHA1: 924562ceafa3b58c9ba698b69ee2dfdb60b82595
+SHA256: 65b19632ec51f575f8bba127c0aa2a7084cfd2e5886077ac1b96fd1a9ae3bb43
+Section: NP-App
+Homepage: http://www.sinfuliphone.com/
+Description: A File Manager and Viewer.
+Depiction: http://www.sinfuliphonerepo.com/depiction/ifile.html
+Name: iFile Cracked
+
+Package: com.hackyouriphone.ifile
+Version: 2.2.0-1
+Architecture: iphoneos-arm
+Maintainer: iLeoLion <repo@hackyouriphone.org>
+Depends: file-cmds, zip, unzip, p7zip, gzip, bzip2, unrar, diskdev-cmds
+Filename: ./debs/com.hackyouriphone.ifile_2.2.0-1_iphoneos-arm.deb
+Size: 9746534
+MD5sum: 3c7d9be3eb34e6da2672e4c61fdc288f
+SHA1: 1b2b4acf8d514dd95e0317fdfd6f2c5cdeeb5e60
+SHA256: de489110ac584d42cb325d21cd1f2a7ce9c535c9c1661d8770cc13465fcb15ff
+Section: NP-App
+Author: Carsten Heinelt <repo@hackyouriphone.org>
+Name: iFile 2.2.0-1
+
+Package: auxo.178
+Version: 1.4-2
+Architecture: iphoneos-arm
+Maintainer: 178 Team <apt@178.com>
+Installed-Size: 2127
+Depends: firmware (>= 5.1), mobilesubstrate, preferenceloader, applist
+Filename: ./debs/auxo1.4-2.deb
+Size: 1822346
+MD5sum: 414b8ccebe8f471a2976a6a6f645784e
+SHA1: 197f4672ab72d8e038e397cb741545392ca3d836
+SHA256: 37442c31596e2ae8022d4ca9c14ab34572e431e4523750d7487624123f698250
+Section: NP-System
+Homepage: http://apt.178.com/html/2013/0526/iphone9762.shtml
+Description: 最酷最好用ios多任务增强插件。
+Author: A3tweaks <A3tweaks@gmail.com>
+Depiction: http://apt.178.com/html/2013/0526/iphone9762.shtml
+Dev: a3tweaks
+Name: Auxo
+
+Package: app.weiphone.org.thebigboss.auxo
+Version: 1.4.1-380+debug
+Architecture: iphoneos-arm
+Essential: no
+Maintainer: WeiPhone.com <support@office.weiphone.com>
+Installed-Size: 1241
+Depends: firmware (>= 5.1), mobilesubstrate, preferenceloader, applist, com.a3tweaks.flipswitch (>> 1.0)
+Filename: ./debs/app.weiphone.org.thebigboss.auxo_1.4.1-380+debug_iphoneos-arm.deb
+Size: 769848
+MD5sum: bb492a9ffa6a74136afd2a513095e82e
+SHA1: e7ed1e8a39047fff1c5a3c26553586791ce5dfb3
+SHA256: f53929ea7670ec1024c8af2913ad801f4062f1b546d7dcd944d13fa4414c1ddb
+Section: NP-System
+Priority: standard
+Homepage: http://apt.weiphone.com/index.php?action=packageRead&id=25601
+Description: A bleeding edge, nightly beta of the popular app switcher, Auxo.
+Tag: role::enduser
+Author: A³tweaks
+Depiction: http://apt.weiphone.com/cydia/index.php?action=package&id=25601
+Name: Auxo Beta
+
+Package: vn.gsm.auxopad
+Version: 1.0.2-1
+Architecture: iphoneos-arm
+Maintainer: Cydia.vn <repo@cydia.vn>
+Installed-Size: 805
+Depends: gsmicon, firmware (>= 6.0), mobilesubstrate, preferenceloader, applist, com.a3tweaks.flipswitch, gsc.ipad
+Filename: ./debs/vn.gsm.auxopad_1.0.2-1_iphoneos-arm.deb
+Size: 681370
+MD5sum: 53596921056a0fdf61475a5f91b4dc16
+SHA1: e9cec035057ca6dee4fb55353c8e1d4938ad367f
+SHA256: c8fcac13bf15540f9dff95e95ec7e90326b52a3dd0cff8dd3c0158219a496257
+Section: NP-System
+Homepage: http://cydia.vn/
+Description: A fantastic re-imagined multitasking bar!
+Author: A3tweaks
+Depiction: http://cydia.gsm.vn/t4325/
+Name: Auxo for iPad
+
+Package: zephyr.178
+Version: 1.6.4-1
+Architecture: iphoneos-arm
+Maintainer: 178 Team <apt@178.com>
+Installed-Size: 112
+Pre-Depends: firmware (>= 5.0)
+Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.layersnapshotter
+Conflicts: com.dapetcu21.MultiCleaner (<= 2.9.4), com.xsellize.multicleaner, com.xsellize.zephyr
+Filename: ./debs/zephyr164-1.deb
+Size: 44894
+MD5sum: 0db728594f7b60be016451db3e1b6178
+SHA1: e322f685116af17b7245c2c69e083af3eddd05e4
+SHA256: 6ef481322b9d2aff158949fb605766a78ae1070a2f2861cb6d87982472121ced
+Section: NP-System
+Homepage: http://apt.178.com/html/2013/0225/iphone9155.shtml
+Description: Zephyr允许您单指或多指从dock上拉开启后台或关闭程序，程序中边缘左右滑动切换后台程序。
+Author: chpwn <support@chpwn.com>
+Depiction: http://apt.178.com/html/2013/0225/iphone9155.shtml
+Dev: chpwn
+Name: Zephyr
+
+Package: com.lionfish.zephyrzhcn
+Version: 1.6.4-1
+Architecture: iphoneos-arm
+Maintainer: Lionfish <lionfish2009@foxmail.com>
+Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.layersnapshotter
+Conflicts: com.dapetcu21.MultiCleaner (<= 2.9.4), com.xsellize.multicleaner, com.xsellize.zephyr, com.chpwn.zephyr
+Filename: ./debs/com.lionfish.zephyrzhcn_1.6.4-1_iphoneos-arm.deb
+Size: 44342
+MD5sum: 4c8c2d14fae0803ff93e5e47ff098ada
+SHA1: 6ba6e87ad7eb77e149f396b2f88d42b14cacc2cb
+SHA256: c13721a1f9cee872d4f460fcc36494eb45a958677cce99a884d2d9cbdf8ed196
+Section: NP-System
+Description: Awesome, useful swipe multitasking!
+Author: Lionfish <lionfish2009@foxmail.com>
+Depiction: http://bigboss.org/moreinfo/depiction.php??file=zephyrDp
+Name: Zephyr zh_CN
+
+Package: com.ih8sn0w-squiffy-winocm.p0sixspwn
+Version: 1.4-1
+Architecture: iphoneos-arm
+Maintainer: iH8sn0w, SquiffyPwn, winocm
+Installed-Size: 88
+Depends: firmware(>= 6.1.3), firmware (<< 7.0)
+Filename: ./debs/com.ih8sn0w-squiffy-winocm.p0sixspwn_1.4-1_iphoneos-arm.deb
+Size: 24748
+MD5sum: ab8d468fa8501539a8f327131eedd710
+Section: NP-System
+Description: A drama free 6.1.3/6.1.4/6.1.5/6.1.6 untether.
+Author: iH8sn0w, SquiffyPwn, winocm
+Depiction: https://cydia.saurik.com/info/com.ih8sn0w-squiffy-winocm.p0sixspwn/
+Name: p0sixspwn
+
+Package: com.nan.icleanerpro-crack
+Version: 7.8.0
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner, com.exile90.icleanerpro, com.nan.icleanerpro
+Replaces: org.altervista.exilecom.icleaner, com.exile90.icleanerpro, com.nan.icleanerpro
+Filename: ./debs/com.nan.icleanerpro-crack_7.8.0_iphoneos-arm.deb
+Size: 7690872
+MD5sum: 755280781855f1e5af30c6df848b4b0a
+SHA1: 5392afb665f9114316e798b991560bd7799b9f1b
+SHA256: d3ff0c01fa876fcc65ea60fcf5d7046e8955bb7929a2cb6e5df20409d3e59bc5
+Section: NP-App
+Homepage: http://ib-soft.net/icleaner
+Description: iOS 系统清理 & 优化
+Author: Ivano Bilenchi <support@ib-soft.net>
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.icleanerpro/image.png
+Name: iCleaner Pro Crack
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.icleanerpro/js_crack.json
+
+Package: com.abcydia.icleanerpro
+Version: 7.9.1
+Architecture: iphoneos-arm
+Maintainer: WZteam <admin@abcydia.com>
+Installed-Size: 16866
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: debs/com.abcydia.icleanerpro_7.9.1_iphoneos-arm.deb
+Size: 4787254
+MD5sum: f05ea583f2e2ef72be21ec6956562d68
+SHA1: 052959951460198def53de381625717b23deb710
+SHA256: 85fe5f4303908b2a17b21af504a8822c36ecd87fcb0bdf44556f7e8d88afd971
+Section: NP-App
+Description: iOS系统 垃圾清理 & 插件管理 工具
+Author: Ivano Bilenchi
+Name: iCleaner Pro 系统清理
+Sponsor: ABCydia <http://www.abcydia.com>
+
+Package: icleanerpro.178
+Version: 7.0.1
+Architecture: iphoneos-arm
+Maintainer: 178 Team <apt@178.com>
+Pre-Depends: apt, coreutils, findutils, shell-cmds
+Conflicts: org.altervista.exilecom.icleaner
+Filename: debs/icleanerpro.178_7.0.1_iphoneos-arm.deb
+Size: 1185208
+MD5sum: 3fe4ccb9b9a19fc68d5aaa11551367fb
+SHA1: 2e985bcd71a31551a77f9b2786bce050be15ee53
+SHA256: dff3b9eb45f6eb2201f9c14d1474aabbbf68689b7104cc672001b7b6e525fbcd
+Section: NP-App
+Homepage: http://apt.178.com/html/2013/0828/iphone10039.shtml
+Description: iCleaner Pro是一款针对iOS系统垃圾文件清理的插件，您可使用它来清理：
+Author: Exile.90 <exile@live.it>
+Depiction: http://apt.178.com/html/2013/0828/iphone10039.shtml
+Name: iCleaner Pro去广告版
+
+Package: com.touchelf.touchelf
+Version: 3.3.4-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 6911
+Depends: firmware (>= 4.3), mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.touchelf.touchelf_3.3.4-1_iphoneos-arm.deb
+Size: 2420374
+MD5sum: 29d92f63d392886a1767e7a3218e260c
+SHA1: 69b068ac73de296b8a6fe52c163da412dc33c8b3
+SHA256: 45634263052e50516b6e494470beffdab0e8c6b6034a760a97bd5fa07d58028e
+Section: NP-App
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=touchelfDp
+Description: IOS版触摸精灵
+Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9
+Author: sern.cheung <sern.cheung@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=touchelfDp
+Dev: touchelf
+Name: 触摸精灵
+
+Package: com.aoi.storefix
+Version: 1.0-6
+Architecture: iphoneos-arm
+Maintainer: aoi_satou
+Depends: firmware  (<= 6.1.6)
+Conflicts: com.aoi.storefix
+Filename: ./debs/x/b.deb
+Size: 1270
+MD5sum: fb1224b0f97b71a5040606f5fa0b4b37
+SHA1: d4ab9af662df651022afaa6775de04450d787ca7
+SHA256: a7d02f5ca487cff4770ee68eb1409ad48f126dacf77adace7f2b681422bd7829
+Section: NP-修复插件
+Description: Fixed an issue where iOS 6 and earlier could not connect to the App Store. (Only the host file is rewritten. A restart may be required after installation.) If you applied the patch in the previous version, you may not be able to log in with your Apple ID, so we recommend initializing it.
+Tag: purpose::extension
+Author: aoi_satou
+Depiction: http://aoiblog.jp/appstorefix_history.html
+Dev: aoi_satou
+Name: AppStoreFix
+
+Package: com.skyglow.itunesstorex
+Version: 3.2
+Architecture: iphoneos-arm
+Maintainer: Requis, Bag.xml
+Installed-Size: 312
+Depends: mobilesubstrate, firmware(<==7.9)
+Filename: ./debs/x/com.skyglow.itunesstorex_3.2_iphoneos-arm.deb
+Size: 108400
+MD5sum: 119e8183a48268f6920cfc3b0a8df212
+SHA1: 6b411c683fba5f6b3278a9aae28d956465bc32ba
+SHA256: 946952cc2bcc33ddd512dc5bbcfc0755c3ccd975cdd7f0a2c4384d9a4589cdcc
+Section: NP-修复插件
+Description: This tweak fixes any storefront. It fixes every app's connection issues with the iTunes Store, as of recent changes made by Apple, this tweak does not allow to download apps.
+Author: Requis, Bag.xml
+Depiction: http://cydia.skyglow.es/depictions/com.skyglow.itunesstorex/depictions/index.html
+Name: iTunesStoreX
+
+Package: com.ruich97.itunesstorefix
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: ruich97@icloud.com
+Depends: mobilesubstrate, firmware(<=7.9)
+Filename: ./debs/x/com.ruich97.itunesstorefix_1.1_iphoneos-arm.deb
+Size: 64324
+MD5sum: 784ce49cbd149c0d3664b4c94146ba68
+SHA1: ea6098b7d422cbdacfb9de34c336d8656f5c79c2
+SHA256: 2ed34f1f2bc9ddfc3016421052c1035d2cfd03a4f96a4c913bb0920a1a6aff3b
+Section: NP-修复插件
+Description: 该插件可修复Store无法打开的问题。它能解决所有应用程序与iTunes Store的连接问题；但由于苹果公司近期的调整，此工具可能会导致用户无法下载应用。
+Author: ruich97@icloud.com
+Depiction: http://apt.senpai114514.icu/pages/1.html
+Name: iTunesStoreFix for China
+
+Package: uk.invoxiplaygames.checkmatestore
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Installed-Size: 164
+Depends: mobilesubstrate, firmware (>= 2.0)
+Filename: ./debs/x/checkmatestore-1.2.deb
+Size: 5200
+MD5sum: 5245fc6431aadd77110a226b8f0d9ee8
+SHA1: 1330e7a5c051c6dfbff558184de78accecb19032
+SHA256: 0863fee434c9a1aed89696655b4075aa3edde2b2ad3ee2a0e99a99428c17ffe3
+Section: NP-修复插件
+Description: Disable capability limits in the App Store.
+Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Depiction: http://cydia.invoxiplaygames.uk/dp/checkmatestore.php
+Name: Checkmate, Store!
+
+Package: com.skyglow.stocksx
+Version: 2.3
+Architecture: iphoneos-arm
+Maintainer: Requis
+Depends: mobilesubstrate, firmware (>= 2.0), firmware (<= 7.2), com.skyglow.weatherx
+Conflicts: com.ixmoe.1pwn.stockx
+Filename: ./debs/x/com.skyglow.stocksx_2.3_iphoneos-arm.deb
+Size: 18640
+MD5sum: 2cc527709d172622ce444d6c2822dcdd
+SHA1: bcfdf0325e230b7fd4c109e93976cd5eca03e341
+SHA256: b6e084265211c1a4f1d685c397c5ae4f975eff1b6d6589592d929806fdfffdfe
+Section: NP-修复插件
+Description: Fix the stocks app from iPhoneOS 2 to iOS 7 by redirecting requests to my servers!
+Author: Requis
+Depiction: http://cydia.skyglow.es/depictions/com.skyglow.stocksx/depictions/index.html
+Name: StocksX
+
+Package: com.skyglow.mapsx
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: Requis
+Installed-Size: 200
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/x/mapsx_2.0.deb
+Size: 8708
+MD5sum: c03f0815973710a2fc25bbd48752de04
+SHA1: 167a2f0a93cc48d49a1b12bd9f86e88a7a5b92ba
+SHA256: 37d22dc673a5cb33a4181c7b22f3db581f5a511f2bf84f76307ed3b0cf01545c
+Section: NP-修复插件
+Description: This tweak fixes Apple Maps and any MapView in the system (asking Siri for location...) by redirecting various dead URI.
+Author: Requis
+Depiction: https://cydia.skyglow.es/depictions/?p=com.skyglow.mapsx
+Name: MapsX
+
+Package: com.ixmoe.1pwn.weatherx
+Version: 1.0.4-1+debug
+Architecture: iphoneos-arm
+Maintainer: electimon
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/x/weatherx_1.0.4.deb
+Size: 8262
+MD5sum: 9848525c2ee84c67a7065decaf8f5c9a
+SHA1: 1c20b9c61d3a6df5d188f39b185501d8e2f4c784
+SHA256: 948aaa7c4242395b46893adf0ced47e92d951dbfafea7706706aaf4d302befc7
+Section: NP-修复插件
+Description: Redirect Weather requests to my server!
+Author: electimon
+Name: WeatherX
+
+Package: com.skyglow.weatherx
+Version: 3.3
+Architecture: iphoneos-arm
+Maintainer: Requis
+Depends: mobilesubstrate (>= 0.9.2586), firmware (>= 2.0), firmware (<= 7.9), preferenceloader, com.skyglow.stocksx
+Conflicts: com.ixmoe.1pwn.weatherx
+Filename: ./debs/x/com.skyglow.weatherx_3.3_iphoneos-arm.deb
+Size: 84100
+MD5sum: a6261fcbcbe36290f4aaa25357744d9e
+SHA1: a6e6caabf056d05b8f961165123917e9eff9c846
+SHA256: c7648684aff258bfa831b2e7c317361dad7c300d24505367c622d8b84ef6d67b
+Section: NP-修复插件
+Description: Fix iOS's weather app from iPhoneOS 2 to iOS 7, the weather widget in the notification center, and the temperature in the iPad clock app!
+Author: Requis
+Depiction: http://cydia.skyglow.es/depictions/com.skyglow.weatherx/depictions/index.html
+Name: WeatherX
+
+Package: applist
+Version: 1.5.16
+Architecture: iphoneos-arm
+Maintainer: Ryan Petrich <rpetrich@gmail.com>
+Installed-Size: 780
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.7~beta3) | firmware (<< 7.0)
+Conflicts: com.a3tweaks.polus (<< 2.0.7)
+Filename: ./debs/yilai/applist_1.5.16_iphoneos-arm.deb
+Size: 105002
+MD5sum: 8ebac878af88fa09710c65f035c25d85
+SHA1: ac4cb25781c69033e72a98878865fe868a6d5585
+SHA256: dc3924d193fd1b117d532bea6b0c0397a88e1c5b29c6bb1f3187abaf100c0925
+Section: NP-插件依赖
+Author: Ryan Petrich <rpetrich@gmail.com>
+Name: AppList
+
+Package: zip
+Version: 2.32-6
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 368
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./debs/yilai/zip_2.32-6_iphoneos-arm.deb
+Size: 58550
+MD5sum: 1eebf2ba9ab0dc7cf445bf7cba0fa49e
+Section: Archiving
+Priority: important
+Description: standard Windows compression tool
+Tag: purpose::console, role::hacker
+
+Package: bzip2
+Version: 1.0.5-8
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 148
+Filename: ./debs/yilai/bzip2_1.0.5-8_iphoneos-arm.deb
+Size: 23772
+MD5sum: e16193eb82c52682fb9e8b5d51f4c8af
+Section: Archiving
+Priority: important
+Homepage: http://www.bzip.org/
+Description: compression that's slightly better than gzip
+Tag: purpose::console, role::hacker
+
+Package: bzip2
+Version: 1.0.8
+Architecture: iphoneos-arm64
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 468
+Depends: libiosexec1 (>= 1.2.2)
+Filename: ./debs/yilai/bzip2_1.0.8_iphoneos-arm64.deb
+Size: 54550
+MD5sum: 00a7d9193fc0365c015a92db89112523
+SHA1: 5926beb7c4366b20b1dfc675b6e154a738e0345c
+SHA256: 2361cda4ef255b87ff3bd90ae01e994adec7f4320502e9029e6c7a83ef82f019
+Section: Archiving
+Priority: important
+Homepage: http://www.bzip.org/
+Description: compression that's slightly better than gzip
+
+Package: unzip
+Version: 5.52-6
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 428
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./debs/yilai/unzip_5.52-6_iphoneos-arm.deb
+Size: 95822
+MD5sum: 326830d4b5e67d6bc2fc25b6c4a71baa
+Section: Archiving
+Priority: important
+Description: de-compesses files in zip format
+Tag: purpose::console, role::hacker
+
+Package: p7zip
+Version: 4.57-3p
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 4328
+Filename: ./debs/yilai/p7zip_4.57-3p_iphoneos-arm.deb
+Size: 1595788
+MD5sum: 80396bec09f94e23cd1d59fe818cbf5f
+Section: Archiving
+Priority: optional
+Description: claims to be a good compressor
+Name: 7-zip (POSIX)
+Tag: purpose::console, role::hacker
+
+Package: unrar
+Version: 3.6.8-2p
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 292
+Filename: ./debs/yilai/unrar_3.6.8-2p_iphoneos-arm.deb
+Size: 141040
+MD5sum: 6b4047075066f85147c348639c771ac6
+Section: Archiving
+Priority: optional
+Description: de-compresses files in rar format
+Tag: purpose::console, role::hacker
+
+Package: gzip
+Version: 1.6-7
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 256
+Depends: grep, sed
+Filename: ./debs/yilai/gzip_1.6-7_iphoneos-arm.deb
+Size: 97818
+MD5sum: 05a8bde64a2151907076477cb2fde771
+Section: Archiving
+Priority: required
+Homepage: http://www.gzip.org/
+Description: the standard Unix compression algorithm
+Tag: purpose::console, role::hacker
+
+Package: berkeleydb
+Version: 4.6.21-5
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 1704
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./debs/berkeleydb_4.6.21-5_iphoneos-arm.deb
+Size: 483432
+MD5sum: d5538a770babf6adeb6f637c640fbcee
+SHA1: bb4cb7b140e57852d892c14d5a9649694d7b5f2b
+SHA256: 6754bcc64405a837c900040420838378d81e9e1df8ea70ae50ed4f91a33d8971
+Section: Data_Storage
+Priority: standard
+Homepage: http://www.oracle.com/technology/products/berkeley-db/index.html
+Description: Oracle's embeddable database engine
+Name: Berkeley DB
+
+Package: apt
+Priority: required
+Section: Packaging
+Installed-Size: 12
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1:0-23
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: apt7
+Conflicts: cydia (<< 1.0.2843-1)
+Filename: ./debs/apt_1_0-23_iphoneos-arm.deb
+Size: 686
+MD5sum: c26a27bdd7e7edbc496ed16aafcdf408
+Description: any advanced packaging tool from Debian
+Name: APT 0.6 Transitional
+
+Package: apt7
+Version: 0.7.25.3-9
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 1152
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: apt7-key, apt7-lib (>= 0.7.25.3-7), berkeleydb
+Replaces: apt (<< 1:0-1)
+Filename: ./debs/apt7_0.7.25.3-9_iphoneos-arm.deb
+Size: 268210
+MD5sum: fd4e21263623720e819563dfb0fe23f2
+Section: Packaging
+Priority: standard
+Description: the advanced packaging tool from Debian
+Name: APT 0.7 Strict
+Tag: purpose::console, role::hacker

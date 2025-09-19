@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon.png">
+    <meta name="apple-mobile-web-app-title" content="NB源">
+    <title>NP源</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: #f1f3f5;
+            font-family: Helvetica, Arial;
+            font-size: 14px;
+            -webkit-text-size-adjust: none
+        }
+        
+        img {
+            border: 0
+        }
+        
+        a {
+            color: #47a1f4;
+            text-decoration: none
+        }
+        
+        /* 顶部 logo 区域保持原样 */
+        .logo {
+            padding: 15px;
+            background: #fff
+        }
+        
+        .center-box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 120px;
+            width: 100%;
+            margin: 0px;
+            background: #fff;
+            border: 3px solid #f1f3f5;
+            border-radius: 12px
+        }
+        
+        /* 警告框保持原样 */
+        .warning-box {
+            background: #fff;
+            border: 3px solid #ccc;
+            color: #555;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 15px 13px;
+            display: flex;
+            align-items: center;
+            gap: 15px
+        }
+        
+        .warning-icon {
+            font-size: 24px;
+            flex-shrink: 0
+        }
+        
+        /* 三个按钮容器 */
+        .btn-group {
+            padding: 20px 30px;
+            padding-bottom: 10px;
+            background: #fff;
+            flex-wrap: wrap
+        }
+        
+        .btn-groups {
+            margin-top: 0px;
+            margin-bottom: 15px;
+            padding: 12px 12px;
+            border-radius: 28px;
+            background: #f1f3f5;
+            text-align: center;
+            flex-wrap: wrap;
+            border: 3px solid #ccc
+        }
+        
+        .btn-groups a {
+            display: inline-block;
+            color: #333;
+            font-size: 18px;
+            width: 100%;
+            height: 100%;
+            
+        }
+        
+        /* 按钮本身 
+        .btn-group a {
+            display: table-cell;
+            vertical-align: middle;
+            text-align: center;
+            background: #f1f3f5;
+            color: #555;
+            border: 3px solid #ccc;
+            width: 50%;
+            padding: 12px 0;
+            border-radius: 36px;
+            font-size: 16px
+   
+        }
+        
+        .btn-group a:hover {
+            background: #ccc;
+            color: #fff
+        }*/
+
+        .footer {
+            background: #fff;
+            text-align: center;
+            padding: 15px;
+            font-size: .9rem;
+            margin-top: 15px
+        }
+        
+        .footer a {
+            text-decoration: none;
+            color: #47a1f4
+        }
+    </style>
+</head>
+
+<body>
+    <div class="logo">
+        <div class="center-box">
+            <img src="../images/nprepo/pic1.png" style="height:120px" alt="logo">
+        </div>
+    </div>
+
+    <!-- 警告框 -->
+    <div class="warning-box">
+        <span class="warning-icon">📢</span>
+        <div>
+            <strong>NP源：</strong>主打老设备<br><strong>Q群：</strong>1055389583
+        </div>
+    </div>
+
+    <!-- 按钮 -->
+    <div style="text-align:center;padding-top: 20px;background: #fff;">
+        <h2>添加NP源</h2>
+    </div>
+    <div class="btn-group">
+            <div class="btn-groups"><a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://apt.haonp.top/" target="_blank">Cydia</a></div>
+            <div class="btn-groups"><a href="sileo://source/https://apt.haonp.top/" target="_blank">Sileo</a></div>
+            <!--<div class="btn-groups"><a href="#">Zebra</a></div>-->
+    </div>
+    
+    <div style="text-align:center;margin-top: 15px;padding-top: 20px;background: #fff;">
+        <h2>其他</h2>
+    </div>
+    <div class="btn-group">
+            <div class="btn-groups"><a href="" target="_blank">老设备证书</a></div>
+    </div>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <p>© 2025 NP源 | <a href="https://haonp.top" target="_blank">Hao</a></p>
+        <a target="_blank" href="https://icp.gov.moe/?keyword=20255525" style="text-decoration:none"><img src="images/moe.png" width="14" height="14" style="margin-right:5px;vertical-align:middle">萌ICP备20255525号</a>
+    </footer>
+</body>
+</html>

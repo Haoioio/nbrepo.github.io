@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="shortcut icon" href="CydiaIcon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="CydiaIcon.png">
+    <meta name="apple-mobile-web-app-title" content="NB源">
+    <title>NP源</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box
+        }
+        
+        body {
+            background: #f1f3f5;
+            min-height: 100vh;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif
+        }
+        
+        /* 顶部 logo 区域保持原样 */
+        .logo {
+            padding: 15px;
+            background: #fff
+        }
+        
+        .center-box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 120px;
+            width: 100%;
+            margin: 0px;
+            background: #fff;
+            border: 3px solid #f1f3f5;
+            border-radius: 12px
+        }
+        
+        /* 警告框保持原样 */
+        .warning-box {
+            background: #fff;
+            border: 3px solid #ccc;
+            color: #555;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 15px 13px;
+            display: flex;
+            align-items: center;
+            gap: 15px
+        }
+        
+        .warning-icon {
+            font-size: 24px;
+            flex-shrink: 0
+        }
+        
+        /* 三个按钮容器 */
+        .btn-group {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 0px 15px;
+            flex-wrap: wrap
+        }
+        
+        /* 按钮本身 */
+        .btn-group a {
+            text-decoration: none;
+            background: #f1f3f5;
+            color: #555;
+            border: 3px solid #ccc;
+            padding: 12px 0;
+            border-radius: 36px;
+            font-size: 16px;
+            font-weight: 600;
+            text-align: center;
+            flex: 1 1 200px;
+            /* 默认最小 200px */
+            max-width: 260px;
+            /* 电脑端最大宽度 */
+            transition: .25s;
+        }
+        
+        .btn-group a:hover {
+            background: #ccc;
+            color: #fff
+        }
+        
+        /* 电脑端微调 */
+        @media (min-width:900px) {
+            .btn-group {
+                gap: 30px
+            }
+        
+            .btn-group a {
+                flex: 0 0 220px;
+                font-size: 18px;
+                padding: 12px 0
+            }
+        }
+        
+        /* 页脚保持原样 */
+        .footer {
+            background: #fff;
+            text-align: center;
+            padding: 20px;
+            font-size: .9rem;
+            margin-top: 15px
+        }
+        
+        .footer a {
+            text-decoration: none;
+            color: #47a1f4
+        }
+    </style>
+</head>
+
+<body>
+    <div class="logo">
+        <div class="center-box">
+            <img src="images/nprepo/pic1.png" style="height:120px" alt="logo">
+        </div>
+    </div>
+
+    <!-- 警告框 -->
+    <div class="warning-box">
+        <span class="warning-icon">📢</span>
+        <div>
+            <strong>NP源：</strong>主打老设备<br><strong>Q群：</strong>1055389583
+        </div>
+    </div>
+
+    <!-- 按钮 -->
+    <div style="text-align:center;padding-top: 15px;background: #fff">
+        <h2>添加NP源</h2>
+    </div>
+    <div style="padding: 15px 0px;padding-bottom: 20px;background: #fff">
+        <div class="btn-group">
+            <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://repo.haonp.top/" target="_blank">Cydia</a>
+            <a href="sileo://source/https://repo.haonp.top/" target="_blank">Sileo</a>
+            <!--<a href="#">Zebra</a>-->
+        </div>
+    </div>
+    
+    <div style="text-align:center;margin-top: 15px;padding-top: 15px;background: #fff">
+        <h2>其他</h2>
+    </div>
+    <div style="padding: 15px 0px;padding-bottom: 20px;background: #fff">
+        <div class="btn-group">
+            <a href="https://senpai114514.icu/pages/ios_certificates.html" target="_blank">老设备证书</a>
+        </div>
+    </div>
+    <div style="padding: 15px 0px;padding-bottom: 20px;background: #fff">
+        <div class="btn-group">
+            <a href="./pages/ios7/index.html" target="_blank">iOS7 在线越狱</a>
+        </div>
+    </div>
+    <div style="padding: 15px 0px;padding-bottom: 20px;background: #fff">
+        <div class="btn-group">
+            <a href="./pages/ios10/index.html" target="_blank">iOS10 在线越狱</a>
+        </div>
+    </div>
+    <div style="padding: 15px 0px;padding-bottom: 20px;background: #fff">
+        <div class="btn-group">
+            <a href="https://senpai114514.icu/ios12/index.html" target="_blank">iOS12 在线越狱</a>
+        </div>
+    </div>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <p>© 2025 NP源 | <a href="https://haonp.top" target="_blank">Hao</a></p>
+        <a target="_blank" href="https://icp.gov.moe/?keyword=20255525" style="text-decoration:none">
+            <img src="images/moe.png" width="14" height="14" style="margin-right:5px;vertical-align:middle">萌ICP备20255525号
+        </a>
+    </footer>
+
+    <script type="text/javascript">
+        /* 纯 ES3，iOS5/6 可用 */
+        var ua = navigator.userAgent;
+        var ios = ua.match(/OS\s+(\d+)_(\d+)/); // 匹配 "OS 5_1" 或 "OS 6_0"
+        if (ios) {
+            var major = parseInt(ios[1], 10);
+            if (major === 5 || major === 6) {
+                window.location.replace('../pages/oldios.html'); // 跳转页面
+            }
+        }
+    </script>
+
+    <!-- 返回顶部平滑滚动 -->
+    <script>
+        document.querySelector('a[href="#"]').onclick = function(e) {
+            e.preventDefault();
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+{
+    "class": "DepictionTabView",
+    "headerImage": "https://apt.haonp.top/images/nprepo/pic5.png",
+    "tintColor": "#D57530",
+    "minVersion": "0.3",
+    "tabs": [
+        {
+            "class": "DepictionStackView",
+            "tabname": "NP REPO-公告板",
+            "views": [
+                {
+                    "markdown": "## 空包，仅浏览，🚫勿安装",
+                    "useSpacing": true,
+                    "class": "DepictionMarkdownView"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },      
+                {
+                    "markdown": "## NP REPO-\n- 本源更新纯随缘分 源内插件均来自互联网 安装以后出现异常与本源无关\n- 如果你觉得这个意味深的越狱源很好 请分享给有需要的人\n- Repository updates are sporadic.Plugins are internet sourced.installation issues aren't our responsibility\n- if this repo helps,please share it",
+                    "useSpacing": true,
+                    "class": "DepictionMarkdownView"
+                },
+                {
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 6,
+                    "itemSize": "{160, 346.4533333333333}",
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://apt.haonp.top/images/nprepo/pic3.png"
+                        }
+                    ]
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "text": "NP REPO",
+                    "action": "https://apt.haonp.top",
+                    "openExternal": 1,
+                    "class": "DepictionButtonView"
+                },
+                {
+                    "text": "QQ群",
+                    "action": "https://qun.qq.com/universal-share/share?ac=1&authKey=kDHp9IbEISZsB0dDXc7vIZToR/g8EmjfBelErLp8SNfL8bCOs8DtOA8wxB+yRI55&busi_data=eyJncm91cENvZGUiOiIyMzU1ODI1ODkiLCJ0b2tlbiI6Ik91VjMwWll0ZW42WjgzRzNocmlxUmhrVk5Eb1BYaG9sdkQ2UG1mdElVem12OG1EUEZwd1pqR1VKWFE5WGZaOTUiLCJ1aW4iOiIxOTAyMTE5MzQxIn0=&data=u_MylFe-NsPdVGz-TWE_jXGrfCFyR1tDvAQzlDuk3qbwM8tKWzKHmEULpzC0Fz9NZ6iFCFdTPDCDZsui8w6fa2oO6WnFR5McAzaq26qmO3M&svctype=5&tempid=h5_group_info",
+                    "openExternal": 1,
+                    "class": "DepictionButtonView"
+                }
+            ]
+        },
+        {
+            "class": "DepictionStackView",
+            "tabname": "介绍",
+            "views": [
+                {
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 6,
+                    "itemSize": "{160, 346.4533333333333}",
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://apt.haonp.top/images/nprepo/icon1.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://apt.haonp.top/images/nprepo/icon2.png"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

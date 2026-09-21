@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Pre-AppSetting@tv.danmaku.bilianime</key>
+	<dict>
+		<key>appIdentifier</key>
+		<string>tv.danmaku.bilianime</string>
+		<key>appName</key>
+		<string>哔哩哔哩</string>
+		<key>is3DStyleMode</key>
+		<integer>0</integer>
+		<key>isDisableNotch</key>
+		<false/>
+		<key>isDisableNotch2</key>
+		<true/>
+		<key>isEnabled3D</key>
+		<true/>
+		<key>isFlex</key>
+		<false/>
+		<key>isHostedSceneLayerHost</key>
+		<false/>
+		<key>isOpen3DMode</key>
+		<integer>2</integer>
+		<key>isOpenApp</key>
+		<false/>
+		<key>isOpenMode</key>
+		<integer>1</integer>
+		<key>isScaleRatio</key>
+		<real>0.60000002384185791</real>
+	</dict>
+	<key>kWelcome</key>
+	<true/>
+</dict>
+</plist>

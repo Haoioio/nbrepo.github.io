@@ -1,0 +1,5 @@
+Types: deb
+URIs: https://lautarovculic.github.io/ioscpy-repo/
+Suites: ./
+Components:
+

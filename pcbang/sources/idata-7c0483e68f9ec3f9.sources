@@ -1,0 +1,5 @@
+Types: deb
+URIs: https://apt.25mao.com/
+Suites: ./
+Components: 
+

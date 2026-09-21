@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>index</key>
+	<array>
+		<dict>
+			<key>content</key>
+			<string>async function main(str) {
+    var url = "{{PASTEBOARD}}";
+    // 使用正则表达式提取国家代码和ID部分
+    const regex = /https:\/\/apps\.apple\.com\/([a-z]{2})\/app\/.*\/id(\d+)/;
+    const match = url.match(regex);
+
+    if (match) {
+        // 构建精简后的链接
+        const countryCode = match[1];
+        const appId = match[2];
+        const simplifiedUrl = `https://apps.apple.com/${countryCode}/app/id${appId}`;
+        return simplifiedUrl;
+    } else {
+        return "Invalid URL";
+    }
+}</string>
+			<key>title</key>
+			<string>精简剪贴板内商店链接</string>
+			<key>uuid</key>
+			<string>893B0F95-C00D-49AA-8407-5AD68B198B66</string>
+		</dict>
+		<dict>
+			<key>content</key>
+			<string>async function main(str) {
+    return str.split('').reverse().join('');
+}</string>
+			<key>enable</key>
+			<true/>
+			<key>replaceOrigin</key>
+			<true/>
+			<key>title</key>
+			<string>反转文字</string>
+			<key>uuid</key>
+			<string>313CBF23-D49C-4E94-ABA3-D6DD3A4A232F</string>
+		</dict>
+		<dict>
+			<key>content</key>
+			<string>async function main(str) {
+    arr = str.split("\n");
+    arr.forEach((item, index)=&gt;{
+      if(!item){
+          arr.splice(index, 1);
+      }
+    })
+    return arr;
+}</string>
+			<key>replaceOrigin</key>
+			<true/>
+			<key>title</key>
+			<string>换行分割</string>
+			<key>uuid</key>
+			<string>B25B4DB7-8093-4DE5-A425-6514C2959127</string>
+		</dict>
+		<dict>
+			<key>content</key>
+			<string>async function main(str) {
+  // 创建一个字符串数组
+  const strs = [];
+  // 处理字符串，去除所有空格
+  const processedStr = str.replace(/ /g, "");
+  // 将处理后的字符串添加到数组中
+  strs.push(processedStr);
+  // 返回字符串数组
+  return strs;
+}</string>
+			<key>replaceOrigin</key>
+			<true/>
+			<key>title</key>
+			<string>去除空格</string>
+			<key>uuid</key>
+			<string>0FCDBD95-4FFC-42C2-9900-DB6B57D297E9</string>
+		</dict>
+		<dict>
+			<key>content</key>
+			<string>async function main(str) {
+    const bullet = '-';
+    return `${bullet} ` + str.split(/\r?\n/).join(`\n${bullet} `);
+}</string>
+			<key>replaceOrigin</key>
+			<true/>
+			<key>title</key>
+			<string>MD清单</string>
+			<key>uuid</key>
+			<string>F19A889B-9041-4C1A-A4A9-AB4A30AAD940</string>
+		</dict>
+		<dict>
+			<key>content</key>
+			<string>async function main(text) {
+    // 使用正则表达式匹配并在中英字符、数字、标点和货币符号之间添加空格
+    return text.replace(/([\u4e00-\u9fa5])([a-zA-Z0-9¥$€£₹₩₽₺₨₦₫₴₭₲₡₣₤₱])/g, '$1 $2')
+      .replace(/([a-zA-Z0-9¥$€£₹₩₽₺₨₦₫₴₭₲₡₣₤₱])([\u4e00-\u9fa5])/g, '$1 $2')
+      .replace(/([\u4e00-\u9fa5])([,.!?;:¥$€£₹₩₽₺₨₦₫₴₭₲₡₣₤₱])/g, '$1$2')
+      .replace(/([,.!?;:¥$€£₹₩₽₺₨₦₫₴₭₲₡₣₤₱])([\u4e00-\u9fa5])/g, '$1 $2');
+}</string>
+			<key>replaceOrigin</key>
+			<true/>
+			<key>title</key>
+			<string>中英排版</string>
+			<key>uuid</key>
+			<string>F4853087-DDAA-496D-B211-870670D1164C</string>
+		</dict>
+	</array>
+</dict>
+</plist>

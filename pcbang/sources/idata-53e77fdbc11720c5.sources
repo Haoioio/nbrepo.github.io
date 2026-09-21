@@ -1,0 +1,5 @@
+Types: deb
+URIs: https://winaviation.github.io/repo/
+Suites: ./
+Components: 
+

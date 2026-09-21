@@ -1,0 +1,5 @@
+Types: deb
+URIs: https://invalidunit.github.io/repo/
+Suites: ./
+Components:
+

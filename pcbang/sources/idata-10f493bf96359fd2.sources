@@ -1,0 +1,5 @@
+Types: deb
+URIs: https://wilson.antti.codes/repo/
+Suites: ./
+Components:
+

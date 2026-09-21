@@ -1,0 +1,5 @@
+Types: deb
+URIs: https://miticollo.github.io/repos/my/
+Suites: ./
+Components: 
+

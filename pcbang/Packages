@@ -1,0 +1,1062 @@
+
+Package: ch.xxtou.xxtouch
+Section: Tweaks
+Installed-Size: 61676
+Maintainer: 82Flex <82flex@gmail.com>
+Architecture: iphoneos-arm64e
+Version: 5.4.6
+Depends: firmware (>= 14.0), mobilesubstrate
+Pre-Depends: rootless-compat (>= 0.9)
+Description: XXTouch is a powerful and flexible automation tool for iOS.
+Name: XXTouch Elite
+Author: 82Flex <82flex@gmail.com>
+
+Package: cn.octoforce.copyvault
+Section: Tweaks
+Installed-Size: 6380
+Maintainer: SquidForce, Backup
+Architecture: iphoneos-arm64e
+Version: 1.9.0
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.squidforce.copyvault
+Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Your Copy Vault, Your Pasteboard
+Name: CopyVault(激活码版)
+Author: SquidForce, Backup
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.copyvault/depiction.json
+icon: https://huayuarc.github.io/icon/CopyVault@2x.png
+
+Package: cn.octoforce.squidextender
+Section: Tweaks
+Installed-Size: 9988
+Maintainer: SquidForce, Backup
+Architecture: iphoneos-arm64e
+Version: 3.7.4
+Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy
+Pre-Depends: rootless-compat (>= 0.9)
+Conflicts: com.squidforce.squidextender
+Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Extend your keyboard to be more POWERFULL!
+Name: SquidExtender(激活码版)
+Author: SquidForce, Backup
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
+icon: https://huayuarc.github.io/icon/SquidExtender@2x.png
+
+Package: cn.octoforce.squidgesturepro
+Section: Tweaks
+Installed-Size: 6668
+Maintainer: SquidForce, Backup
+Architecture: iphoneos-arm64e
+Version: 2.7.6-1
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Conflicts: com.lclrc.squidgesture, com.lclrc.squidgesturepro
+Description: Gestures，激活码用户或需要激活码的用户安装此包，非激活码用户不要装!
+Name: SquidGesturePro(激活码)
+Author: SquidForce, Backup
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
+icon: https://huayuarc.github.io/icon/squidgesturepro.jpg
+
+Package: cn.tinyapps.renets
+Section: 网络
+Installed-Size: 805
+Maintainer: BigBoss
+Architecture: iphoneos-arm64e
+Version: 1.2.2
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000)
+Pre-Depends: rootless-compat (>= 0.9)
+Conflicts: cn.tinyapps.renet
+Description: 修复国行设备越狱后 Sileo 等软件无法联网的问题
+Author: Tinyapps
+Name: 连个锤子 修复联网
+Sponsor: thebigboss.org
+dev: tinyapps
+Tag: purpose::extension
+Icon: https://TrollStoreX.Github.io/sileodepiction/Chuizi/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Chuizi/js.json
+
+Package: cn.zqbb.hello.bundleid
+Section: zqbb Tweaks
+Installed-Size: 7644
+Maintainer: zqbb
+Architecture: iphoneos-arm64e
+Version: 1.5.0-6
+Description: 伪装越狱和巨魔应用，让商店应用更难检测越狱!
+Name: HelloBundleID
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.bundleid
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.bundleid
+
+Package: com.82flex.trollvnc
+Section: Tweaks
+Installed-Size: 5688
+Maintainer: 82Flex <82flex@gmail.com>
+Architecture: iphoneos-arm64e
+Version: 3.2-272
+Depends: firmware (>= 14.0), preferenceloader
+Pre-Depends: rootless-compat (>= 0.9)
+Description: TrollVNC is a VNC server for iOS devices, allowing remote access and control of the device’s screen.
+Name: TrollVNC
+Author: 82Flex <82flex@gmail.com>
+
+Package: com.999.airaw
+Section: Tweaks
+Installed-Size: 12029
+Maintainer: Dcsyhi <dcsyhi1998@gmail.com>
+Architecture: iphoneos-arm64e
+Version: 1.7.1k
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), com.opa334.ccsupport
+Pre-Depends: rootless-compat (>= 0.9)
+Description: An awesome CarPlay tweak.
+Author: Dcsyhi <dcsyhi1998@gmail.com>
+Name: Airaw VH(Rootless)
+Depiction: https://bvnrepo999.github.io/infodeb/Html/Airaw.html
+SileoDepiction: https://bvnrepo999.github.io/sileodepictions/Airaw.json
+Icon: https://bvnrepo999.github.io/icon/tinhchinh.png
+
+Package: com.amywhile.aemulo
+Section: Tweaks
+Installed-Size: 2224
+Maintainer: Amy While <support@anamy.gay>
+Architecture: iphoneos-arm64e
+Version: 1.2.5
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
+Pre-Depends: rootless-compat (>= 0.9)
+Conflicts: com.amywhile.aemulotrial
+Description: NFC Frickery
+Name: Aemulo
+Author: Amy While <support@anamy.gay>
+Icon: https://elihwyma.github.io/Aemulo/assets/Icon.png
+Header: https://elihwyma.github.io/Aemulo/assets/Depiction-Header.png
+Native-Depiction: https://elihwyma.github.io/Aemulo/NativeDepiction.json
+
+Package: com.axs.snapper4
+Section: Axs-Tweaks
+Installed-Size: 1476
+Maintainer: Axs <qiaozhini000@163.com>
+Architecture: iphoneos-arm64e
+Version: 5.2.0-40
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.1)
+Conflicts: com.jontelang.snapper3, com.susudear.stayshot, com.axs.snapper3tag, com.iosdump.shellx
+Description: 这是一款截图工具。
+ * 一、基本设置
+ * 1、移动标记：开启后标注内容可拖动调整位置；
+ * 2、功能开关与排序：设置面板内可开关并拖拽排序全部功能。
+ * 二、触发方式
+ * 1、音量增+电源键=：可选系统截图或插件截图；
+ * 2、长按音量减→插件截图：开启后长按音量减约 0.2 秒调出冻结模式。
+ * 三、截图设置
+ * 1、截图仅复制：截图后仅复制到剪贴板；
+ * 2、长截图方式：滚动拼接 / 一镜到底，智能帧匹配自动拼接；
+ * 四、AI 服务（识别与翻译）
+ * 1、Sileo：Sileo 描述页长按翻译纯文本，翻译方式可选百度翻译或 AI 翻译；
+ * 2、AI 互译与问答：中英文互译与中文问答，支持自定义提示词与 AI 对话模式，半屏浮层展示；
+ * 3、文字识别 (OCR)：模型识别截图文字，半屏浮层展示、涂抹选择、一键复制；
+ * 4、百度翻译：自动检测语言双向翻译（中文↔外语），支持图片翻译 / 文本翻译双通道。
+ * 五、扩展功能
+ * 1、截图标记：颜色/箭头/自由画线/文字/矩形/圆形/高亮/马赛克/撤回/删除/保存/复制；
+ * 2、URL 触发：支持手势插件通过 prefs:root=snapper4_freeze（冻结）/ prefs:root=snapper4_long（长截图）系统深链触发。
+Name: Snapper 4
+Author: Axs <qiaozhini000@163.com>
+Icon: https://axs66.github.io/pro/icon/snapper.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/snapper4/js.json
+
+Package: com.bvm.wuzeililiang
+Section: Tweaks
+Installed-Size: 328
+Maintainer: BVN
+Architecture: iphoneos-arm64e
+Version: 1.0.1-1
+Depends: firmware (>= 15.0), mobilesubstrate
+Description: 乌贼三件套通杀插件，内置 DCrack 离线授权（本地生成、绑定设备、无需激活服务器）
+Name: 乌贼本地离线授权
+Author: BVN
+icon: https://huayuarc.github.io/icon/wuzeililiang.jpg
+
+Package: com.bvn.astraboard
+Section: Tweaks
+Installed-Size: 9512
+Maintainer: BVN Team
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Depends: mobilesubstrate, preferenceloader, firmware (>= 17.0), com.opa334.ccsupport, oldabi
+Pre-Depends: rootless-compat (>= 0.9)
+Description: All In One Tweak ios 17&18
+Name: AstraBoard (Rootless)
+Author: BVN Team
+SileoDepiction: https://bvnrepo999.github.io/sileodepictions/astra.json
+Icon: https://bvnrepo.xyz/icon/tinhchinh.png
+
+Package: com.bvn.carcast
+Section: Tweaks
+Installed-Size: 2359
+Maintainer: Dcsyhi <dcsyhi1998@gmail.com>
+Architecture: iphoneos-arm64e
+Version: 1.2
+Replaces: jp.dcsyhi.carcast
+Depends: mobilesubstrate, preferenceloader, firmware (>= 17.0), com.999.airaw (>= 1.7.0)
+Pre-Depends: rootless-compat (>= 0.9)
+Conflicts: com.leftyfl1p.carbridge13
+Description: Pin non-CarPlay apps to the CarPlay dashboard. Requires Airaw. Tested on iOS 17, iOS 18, and iOS 26.
+Author: Dcsyhi <dcsyhi1998@gmail.com>
+Name: CarCast VH(Rootless)
+SileoDepiction: https://bvnrepo999.github.io/sileodepictions/CarCast.json
+Icon: https://bvnrepo999.github.io/icon/tinhchinh.png
+
+Package: com.catvnc.server
+Section: Tweaks
+Installed-Size: 6728
+Maintainer: 0x530c<0x530c@gmail.com>
+Architecture: iphoneos-arm64e
+Version: 1.6.6
+Depends: mobilesubstrate, preferenceloader
+Pre-Depends: rootless-compat (>= 0.9)
+Description: VNC server for iOS
+Name: CatVNC
+Author: 0x530c<0x530c@gmail.com>
+
+Package: com.charlieleung.trollopenjb
+Section: Tweaks
+Installed-Size: 4460
+Maintainer: Charlie Leung
+Architecture: iphoneos-arm64e
+Version: 1.3.7
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
+Pre-Depends: rootless-compat (>= 0.9)
+Description: TrollOpen 的越狱版本，支持 ios16 及以上，免费公开版，无后续更新，不需要反馈 bug。QQ 群：1094778353，后续付费更新联系群主或群管理。小黑子闭嘴吧，看看什么是最强分屏！
+Name: TrollOpen 分屏
+Author: Charlie Leung
+Icon: https://axs66.github.io/pro/icon/trollopen.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/trollopenjb/js.json
+
+Package: com.cydiabc.filzahack-roothide
+Section: Roothide
+Installed-Size: 600
+Maintainer: System Administrator
+Architecture: iphoneos-arm64e
+Version: 1.2
+Depends: mobilesubstrate
+Description: Filza破解全功能插件，此补丁搭配正版Filza使用，破解版Filza请勿安装此补丁
+A12: 1
+Name: Filza File 文件管理器-Roothide【破解补丁】
+Author: Ai-小苹果
+Sponsor: Ai-小苹果™
+Icon: file:///Applications/Cydia.app/Sections/Utilities.png
+Icon2: 17.png
+
+Package: com.cydiabc.icleanerpro-roothide
+Section: Roothide
+Maintainer: Ivano Bilenchi
+Architecture: iphoneos-arm64e
+Version: 7.10.0-1
+Replaces: org.altervista.exilecom.icleaner
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Pre-Depends: rootless-compat (>= 0.9)
+Conflicts: org.altervista.exilecom.icleaner
+Description: iOS系统 垃圾清理 & 插件管理工具，此版本为正版，需搭配iCleanerPro【破解补丁】使用
+A12: 1
+Name: iCleaner Pro系统清理【正版】-Roothide
+Author: Ivano Bilenchi
+Sponsor: Ai-小苹果™
+Icon: file:///Applications/Cydia.app/Sections/Utilities.png
+Icon2: 17.png
+
+Package: com.dangkhoa.hotspotpro
+Section: Networking
+Installed-Size: 1064
+Maintainer: DangKhoa <dangkhoa116@gmail.com>
+Architecture: iphoneos-arm64e
+Version: 0.7.0
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
+Pre-Depends: rootless-compat (>= 0.9)
+Description: See how much data your Personal Hotspot has shared, who is using it, and cap them. 查看个人热点已共享的数据用量、接入设备，并可为设备设置流量上限。
+Name: HotspotPro
+Author: DangKhoa <dangkhoa116@gmail.com>
+Tag: purpose::extension, role::enduser
+icon: https://huayuarc.github.io/icon/HotspotPro.jpg
+
+Package: com.dave1482.powerapp
+Section: Utilities
+Installed-Size: 1024
+Maintainer: Teddible (aka Dave1482) <dave1482@dave1482.com>
+Architecture: iphoneos-arm64e
+Version: 7.0
+Pre-Depends: rootless-compat (>= 0.9), firmware (>= 8.0), system-cmds, shell-cmds, coreutils
+Conflicts: com.dave1482.powerappbeta
+Description: Reboot, Shutdown, Respring, go into Safemode
+Author: Teddible (aka Dave1482) <dave1482@dave1482.com>
+Name: PowerApp
+Icon: https://img.chariz.cloud/icon/powerapp/icon@3x.png
+Depiction: https://chariz.com/get/powerapp
+Tag: purpose::uikit, compatible::ios15, compatible::ios16, compatible::ios17, compatible::ios18, compatible_min::ios8.0
+
+Package: com.flex2areo.appprotect
+Section: Tweaks
+Installed-Size: 2664
+Maintainer: aReo
+Architecture: iphoneos-arm64e
+Version: 2.4.6
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.flex2areo.appprotectroothide, com.flex2areo.appprotectrootless
+Description: App 隐私保护
+Name: AppProtect(Roothide)
+Author: aReo
+
+Package: com.flex2areo.apptools15roothide
+Section: Tweaks
+Installed-Size: 5896
+Maintainer: aReo
+Architecture: iphoneos-arm64e
+Version: 2.8.8
+Depends: mobilesubstrate
+Description: AppTools for iOS15-17 Roothide
+Name: AppTools15-17(Roothide)
+Author: aReo
+
+Package: com.hang.squidgesturepro-ios17fix
+Section: Tweaks
+Installed-Size: 92
+Maintainer: 航
+Architecture: iphoneos-arm64e
+Version: 2.3
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 17.0)
+Conflicts: com.codex.squidgesture17fix
+Description: 修复SquidGesturePro在iOS17状态栏不生效与启动快捷指令时导致的安全模式。
+ 不生效就把手势内总开关跟小开关重新开启一下，有问题请卸载。
+Name: 乌贼手势 iOS 17 补丁
+Author: 航
+icon: https://huayuarc.github.io/icon/squidgesturepro.jpg
+
+Package: com.huami.wcpush2chats
+Section: 微信插件
+Installed-Size: 272
+Maintainer: huami
+Architecture: iphoneos-arm64e
+Version: 1.0-2
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.huami.wcpush2chat
+Description: 微信推送信息直达聊天窗口
+ * 无后台/后台直达通知对应的消息界面
+ * 无需 Orion Swift 依赖
+ * 仅在微信 8.0.61 测试，理论上支持  8.0.31+
+Name: 微信消息直达 WCPush2Chat
+Author: huami
+Icon: https://TrollStoreX.Github.io/sileodepiction/WCPush2Chat/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/WCPush2Chat/js.json
+
+Package: com.ioscpy.device
+Section: Tweaks
+Installed-Size: 584
+Maintainer: Lautaro Villarreal Culic' <lautaro@lautarovculic.com>
+Architecture: iphoneos-arm64e
+Version: 0.1.5
+Depends: ellekit | mobilesubstrate, firmware (>= 14.0)
+Pre-Depends: rootless-compat (>= 0.9)
+Description: Mirror and control this device from macOS over USB.
+Name: ioscpy
+Author: Lautaro Villarreal Culic' <lautaro@lautarovculic.com>
+Homepage: https://lautarovculic.com
+
+Package: com.iosdump.hotaiqingli
+Section: Tweaks
+Installed-Size: 240
+Maintainer: iosdump
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Depends: mobilesubstrate
+Description: 后台一键清理，无设置，可下拉锁定。支持iOS14-17
+Name: 后台一键清理
+Author: iosdump
+Icon: https://huayuarc.github.io/icon/ql.jpg
+
+Package: com.jaysuen.evocenter
+Section: Tweaks
+Installed-Size: 11068
+Maintainer: chatgpt5.6（sol）, JaySuen
+Architecture: iphoneos-arm64e
+Version: 2.5.0-beta.2
+Replaces: com.jaysuen.ccflex16
+Depends: mobilesubstrate, com.opa334.ccsupport
+Conflicts: com.jaysuen.ccflex16
+Description: 为旧系统带来类似ios18的现代化控制中心体验。
+ 调节模块尺寸、自定义圆角大小和控制中心背景透明度。
+ 支持iOS16.0-16.6、iOS 17.0-17.4，其他系统版本自行测试。
+ 反馈Bug和建议：在酷安 App 搜索 JAYSuen私信我，或搜索 Evo Center 找到最新帖子评论。
+ 向ccborder16、horizontalsliders、bettercc致敬，感謝其设计与实现带来的启发。
+Name: Evo Center
+Author: chatgpt5.6（sol）, JaySuen
+Homepage: https://eleveny123.github.io/EvoCenter/
+Icon: https://eleveny123.github.io/EvoCenter/assets/icon.png
+Depiction: https://eleveny123.github.io/EvoCenter/
+SileoDepiction: https://eleveny123.github.io/EvoCenter/native.json?v=2.5.0-beta.2
+
+Package: com.mlgm.ilog
+Section: Applications
+Installed-Size: 2516
+Maintainer: mlgm
+Architecture: iphoneos-arm64e
+Version: 1.2
+Depends: firmware (>= 15.0)
+Description: 查看、预览、分享和清理 iOS 日志
+Name: iLog
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/ilog.png
+
+Package: com.nan.deb-filza-script-b-xz
+Section: System
+Maintainer: zhaonan
+Architecture: iphoneos-arm64e
+Version: 0.1.0
+Provides: com.nan.deb-filza-script-b
+Depends: com.nan.deb
+Pre-Depends: com.tigisoftware.filza64bit | com.tigisoftware.filza
+Conflicts: com.nan.deb-filza-script-b, com.nan.deb-filza-script-b-gzip
+Description: deb 扩展，Filza 脚本，打包 deb，打包有 deb 的目录
+Name: FilzaScript deb -b xz
+Author: zhaonan <invalidunit@icloud.com>
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.deb/js_b.json
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+
+Package: com.nan.deb
+Section: Terminal_Support
+Maintainer: zhaonan
+Architecture: iphoneos-arm64e
+Version: 0.3.0
+Depends: coreutils, sed, findutils
+Description: deb 工具，普通解压，普通打包，批量解压，批量打包，提取已安装软件包，deb 信息查看
+Name: deb
+Author: zhaonan
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.deb/js.json
+Icon: https://invalidunit.github.io/sileodepiction/default/image_terminal.png
+
+Package: com.nan.pointless
+Section: Addons
+Maintainer: zhaonan
+Architecture: iphoneos-arm64e
+Version: 0.1.0
+Description: 毫无意义的守护进程，但是能解决我手机闲置时过度发热和闲置时接入电源重启的问题
+Name: Pointless
+Author: zhaonan
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.pointless/js.json
+Icon: https://invalidunit.github.io/sileodepiction/default/image_fix.png
+
+Package: com.opa334.altlist
+Section: System
+Installed-Size: 340
+Maintainer: opa334
+Architecture: iphoneos-arm64e
+Version: 1.0.11
+Depends: firmware (>= 7.0)
+Description: A modern AppList alternative
+Name: AltList
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
+Author: opa334
+Tag: role::developer
+
+Package: com.opa334.ccsupport
+Section: Tweaks
+Installed-Size: 716
+Maintainer: opa334
+Architecture: iphoneos-arm64e
+Version: 1.3.13-2-15+debug
+Replaces: com.ioscreatix.silo
+Provides: com.ioscreatix.silo
+Depends: mobilesubstrate, firmware (>= 11.0)
+Conflicts: com.ioscreatix.silo
+Description: Support tweak for CC modules!
+Name: CCSupport
+Author: opa334
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
+
+Package: com.opa334.libsandy
+Section: System
+Installed-Size: 468
+Maintainer: opa334
+Architecture: iphoneos-arm64e
+Version: 1.1.6-4
+Description: Securely extend the sandbox of system processes and user applications
+Name: libSandy
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
+Author: opa334
+Tag: role::developer
+
+Package: com.qianuo.smartdeck.app
+Section: Tweaks
+Installed-Size: 1112
+Maintainer: kanuo
+Architecture: iphoneos-arm64e
+Version: 0.7.12
+Depends: uikittools, mobilesubstrate, firmware (>= 16.0), firmware (<< 17.3.2)
+Conflicts: com.qianuo.smartdeck
+Description: Experimental standalone desktop with a SpringBoard scene-hosting companion. Does not replace the native Home screen. Device validation required.
+Name: SmartDeck App
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/smartdeck/icon-v2.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.smartdeck.json
+
+Package: com.roothide.patcher
+Section: Utilities
+Installed-Size: 4124
+Maintainer: roothide
+Architecture: iphoneos-arm64e
+Version: 2.1.4-1+debug
+Depends: firmware (>= 15.0), libxar1, ldid, file, dpkg, gawk, plutil (>= 0.2.2-1), uikittools (>= 2.1.6-4)
+Description: patch rootless package to roothide, not work for all packages.
+Name: RootHide Patcher
+Author: roothide
+Icon: https://github.com/roothide/RootHidePatcher/blob/master/derootifier-2-modified.png?raw=true
+Depiction: https://github.com/roothide/RootHidePatcher
+Support: https://github.com/roothide/RootHidePatcher
+
+Package: com.roothide.patchloader
+Section: System
+Installed-Size: 132
+Maintainer: roothide
+Architecture: iphoneos-arm64e
+Version: 0.0.8
+Description: RootHide Dynamic Patches Loader
+Name: PatchLoader
+Author: roothide
+Tag: role::developer
+
+Package: com.sbcpu.floating
+Section: Tweaks
+Installed-Size: 2852
+Maintainer: MoWang
+Architecture: iphoneos-arm64e
+Version: 4.66
+Depends: mobilesubstrate, preferenceloader
+Description: 实时悬浮窗硬件监控：CPU 负载与频率、屏幕 FPS、真实电量、硬件温度与充放电电流，附带液态玻璃外观、智能充电与温控保护。
+ 【本次更新 V4.66】
+  - 新增设置：越狱源
+ 【历史修复】
+  - V4.65：修复系统设置里设置后又恢复默认 bug
+  - V4.64：修复自动清后台 bug；修复下拉通知中心清后台 bug
+ 【核心功能】
+  - CPU/FPS：实时查看 CPU 负载、物理频率与屏幕刷新率
+  - 电池/温度：读取真实电量、硬件级温度与充放电电流
+  - 通知与悬浮聊天：无缝显示微信/QQ 消息，点击直达聊天窗口
+  - 液态玻璃：浮窗材质可自定义强度、折射、厚度、高光、色散、折射率与渲染质量
+  - 充电管理：可手动阻止充电/外部供电；智能充电按上限停充、下限回充，支持保留外部电源与覆盖 OBC，保留满血快充
+  - CPUthermal 温控：高温自动降功耗、熄屏省电，温度恢复后自动还原
+ 【手势操作】
+  - 单击浮窗：展开胶囊 / 消息直达
+  - 双击浮窗：进入高级设置中心
+  - 长按浮窗：查看详细硬件状态
+  - 拖动浮窗：自由移动并自动边缘吸附
+ 【使用说明】
+  - 安装后请 Respring 一次
+  - 设置路径：设置 → SBCPU Floating（双击桌面浮窗也可进入高级设置）
+  - 建议先连接有线充电器再启用智能停充，无线充电不执行智能停充
+  - 值守进程 SBCPUChargeDaemon 由 launchd 常驻，请勿手动重复启动
+  - 本包为 RootHide（arm64e）版；标准 Rootless（arm64）请安装对应版本
+Name: SB CPU Floating
+Author: MoWang
+icon: https://huayuarc.github.io/icon/floating.jpg
+
+Package: com.sensetechlab.duodash
+Section: Tweaks
+Installed-Size: 2996
+Maintainer: SenseTechLab
+Architecture: iphoneos-arm64e
+Version: 1.1.3
+Replaces: com.carnav.hud, com.carnav.core, com.carnav.bridge, com.carnav.hook, com.carnav.hud.prefs, com.carnav.prefs.refresh, com.carnav.hud.carplaydashboard, com.carnav.hud.appbridge, com.sensetechlab.carsleeper, com.sensetechlab.carplaytweak, com.sensetechlab.core, com.sensetechlab.bridge, com.sensetechlab.prefs.refresh, com.sensetechlab.duodash.prefs, com.sensetechlab.duodash.appbridge
+Provides: com.carnav.hud, com.carnav.core, com.carnav.bridge, com.carnav.hud.prefs, com.carnav.prefs.refresh, com.sensetechlab.core, com.sensetechlab.bridge, com.sensetechlab.prefs.refresh, com.sensetechlab.duodash.prefs
+Depends: mobilesubstrate (>= 0.9.5000) | ellekit, firmware (>= 14.0), preferenceloader
+Pre-Depends: rootless-compat (>= 0.9)
+Conflicts: com.carnav.hud, com.carnav.core, com.carnav.bridge, com.carnav.hook, com.carnav.hud.prefs, com.carnav.prefs.refresh, com.carnav.hud.carplaydashboard, com.carnav.hud.appbridge, com.sensetechlab.carsleeper, com.sensetechlab.carplaytweak, com.sensetechlab.core, com.sensetechlab.bridge, com.sensetechlab.prefs.refresh, com.sensetechlab.duodash.prefs, com.sensetechlab.duodash.appbridge
+Description: DuoDash 将你的 CarPlay 屏幕变成一个可自定义的多应用仪表盘，支持将屏幕分割为最多 3 个独立面板，每个面板运行不同应用，并提供 8 种灵活的屏幕布局方案。专为宽屏/竖屏车载显示设计，打造真正的多任务仪表盘，而非简单的手机界面镜像，建议使用 有线 CarPlay。
+Name: DuoDash 车机互联
+Author: SenseTechLab
+Sponsor: SenseTechLab
+Tag: compatible_min::ios14.0
+icon: https://huayuarc.github.io/icon/DuoDash.jpg
+
+Package: com.sini.wcplugins.rootless
+Priority: optional
+Section: Tweaks
+Maintainer: admin@25mao.com
+Architecture: iphoneos-arm64e
+Version: 0.1-6
+Depends: firmware (>= 5.0)
+Pre-Depends: rootless-compat (>= 0.9)
+Description: 微信插件管理
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/wcplugins.rootless/js.json
+Name: 微信插件管理
+Author: Mao
+
+Package: com.snapbackup
+Section: Tweaks
+Installed-Size: 812
+Maintainer: kanuo
+Architecture: iphoneos-arm64e
+Version: 3.6.5
+Depends: firmware (>= 15.0), mobilesubstrate
+Description: 越狱插件与配置备份恢复工具（rootless + RootHide 隐根适配）
+ 轻量、现代 UI 的越狱备份工具，专为解决重装、重越狱、迁移插件与配置的痛点而设计。
+ .
+ 【核心功能】
+ - 一键备份全部已安装插件（现场重打包为 .deb）+ 软件源列表 + 插件偏好配置 plist
+ - 两种备份模式：轻量清单备份 / 完整离线备份（含 deb 安装包）
+ - 选择性备份：可勾选要备份的插件、配置、本地 deb 与 ipa，自动标记「设置有界面」的插件
+ - 恢复配置一键完成（plist 恢复到 /var/mobile/Library/Preferences，本地执行，无需 root）
+ .
+ 【恢复难易度说明】
+ - 恢复配置：★☆☆ 简单 —— App 内一键恢复，本地执行，无需 root 权限
+ - 恢复插件：★★★ 较难 —— 需 root 权限，通过「Filza 显示」跳转 Filza，手动安装 debs/ 下的 deb（或 dpkg -i），装完注销/重启生效
+ .
+ 【操作流程】
+ ① 备份：主页 →「一键备份」→ 选模式（全部插件 / 勾选内容 / 仅配置）→ 等待完成，备份存于 /var/mobile/Documents/SnapBackup/
+ ② 恢复配置：主页 →「恢复配置」→ 选备份包 → 自动恢复 plist（无需 root）
+ ③ 恢复插件：备份包卡片 →「Filza 显示」→ 进入 debs/ 文件夹 → 逐个点 deb 安装 → 注销/重启 SpringBoard 生效
+ .
+ RootHide 隐根专门适配：正确读取隐根容器 apt 数据库、动态解析真实 jbroot、不受 .jbroot-xxxx 隔离目录干扰。
+ 备份目录：/var/mobile/Documents/SnapBackup/；后台不常驻，打开才执行，不耗电。
+Name: SnapBackup 备份恢复
+Author: kanuo
+dev: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/icon/snapbackup.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.snapbackup.json
+
+Package: com.susudear.screencore
+Section: Tweaks
+Installed-Size: 2836
+Maintainer: SuSu
+Architecture: iphoneos-arm64e
+Version: 1.1.8
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Description: 分屏而已
+Name: ScreenCore
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+
+Package: com.tigisoftware.filza64bit
+Section: Utilities
+Maintainer: TIGI Software
+Architecture: iphoneos-arm64e
+Version: 4.0.1-4~roothide
+Pre-Depends: patches-com.tigisoftware.filza64bit (= 4.0.1-4~roothide)
+Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 11+. This version only supports 64-bit devices
+Name: Filza File Manager 64-bit
+Author: TIGI Software
+
+Package: com.wilsonthewolf.unlocker
+Section: Tweaks
+Installed-Size: 364
+Maintainer: WilsontheWolf
+Architecture: iphoneos-arm64e
+Version: 0.0.3
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3), com.opa334.ccsupport
+Pre-Depends: rootless-compat (>= 0.9)
+Description: Keep your device unlocked.
+Name: Unlocker
+Author: WilsontheWolf
+Icon: https://repo.shorty.systems/icons/com.wilsonthewolf.unlocker.png
+Depiction: https://repo.shorty.systems/depictions/web/com.wilsonthewolf.unlocker
+SileoDepiction: https://repo.shorty.systems/depictions/sileo/com.wilsonthewolf.unlocker
+
+Package: dev.theos.orion14
+Section: System
+Installed-Size: 1220
+Maintainer: Theos Team <theos@kabiroberai.com>
+Architecture: iphoneos-arm64e
+Version: 1.0.1-3+debug
+Provides: dev.theos.orion (= 1.0.1-3+debug)
+Depends: firmware (>= 14.0), firmware (<< 18.0), mobilesubstrate (>= 0.9.5000)
+Description: Runtime for tweaks built using Orion and Swift
+Name: Orion (iOS 14-17)
+Author: Theos Team <theos@kabiroberai.com>
+Tag: role::developer
+
+Package: ellekit
+Priority: optional
+Section: Tweak Injection
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Architecture: iphoneos-arm64e
+Version: 1.2-1
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Breaks: com.opa334.libsandy (<= 1.1.6-3)
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
+Description: ElleKit tweak injection libraries and loader
+Name: ElleKit
+Author: Evelyn
+Icon: https://ellekit.space/logos/logo.png
+
+Name: file
+Package: file
+Priority: important
+Section: Utilities
+Installed-Size: 100
+Maintainer: RootHide <RootHideDev@twitter>
+Architecture: iphoneos-arm64e
+Version: 5.43
+Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1), libmagic1 (= 5.43), liblzma5 (>= 5.2.5)
+Description: Recognize the type of data in a file using "magic" numbers
+ The file command is "a file type guesser", a command-line tool that
+ tells you in words what kind of data a file contains.
+ .
+ This package contains the file program itself.
+
+Package: gawk
+Priority: important
+Section: Utilities
+Installed-Size: 3236
+Maintainer: RootHide <RootHideDev@twitter>
+Architecture: iphoneos-arm64e
+Multi-Arch: foreign
+Version: 5.1.0-2
+Provides: awk
+Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1), libintl8, libreadline8, libmpfr6, libgmp10
+Description: GNU awk, a pattern scanning and processing language
+ `awk', a program that you can use to select particular records in a
+ file and perform operations upon them.
+ .
+ Gawk is the GNU Project's implementation of the AWK programming language.
+ It conforms to the definition of the language in the POSIX 1003.2 Command
+ Language And Utilities Standard. This version in turn is based on the
+ description in The AWK Programming Language, by Aho, Kernighan, and
+ Weinberger, with the additional features defined in the System V Release
+ 4 version of UNIX awk. Gawk also provides more recent Bell Labs awk
+ extensions, and some GNU-specific extensions.
+Homepage: http://www.gnu.org/software/gawk/
+
+Package: gettext-localizations
+Priority: important
+Section: Localizations
+Installed-Size: 2628
+Maintainer: RootHide <RootHideDev@twitter>
+Architecture: iphoneos-arm64e
+Version: 2020.10.07
+Replaces: com.linusyang.localeutf8
+Provides: com.linusyang.localeutf8 (= 99.9)
+Depends: roothide (>= 0.0.6), libintl8 (>= 0.20.0)
+Conflicts: com.linusyang.localeutf8
+Description: Locale files necessary for command line tool translation.
+
+Package: gzip
+Priority: standard
+Section: Archiving
+Installed-Size: 324
+Maintainer: RootHide <RootHideDev@twitter>
+Architecture: iphoneos-arm64e
+Multi-Arch: foreign
+Version: 1.12
+Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1)
+Description: GNU compression utilities
+ This package provides the standard GNU file compression utilities, which
+ are also the default compression tools for Debian.  They typically operate
+ on files with names ending in '.gz', but can also decompress files ending
+ in '.Z' created with 'compress'.
+Homepage: http://www.gzip.org/
+
+Package: iya.banana.iphoneduoicon
+Section: Tweaks
+Installed-Size: 864
+Maintainer: Banana
+Architecture: iphoneos-arm64e
+Version: 0.1.24
+Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Description: Combined battery, Wi-Fi and dual-line cellular status icon.电量、wi-Fi与蜂窝信号一体化，提供星环和胶囊两种状态栏样式。
+Name: iPhoneDuoIcon
+Author: Banana
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+
+Package: iya.banana.jumpguard
+Section: Tweaks
+Installed-Size: 560
+Maintainer: hades
+Architecture: iphoneos-arm64e
+Version: 0.1.2
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Description: Confirm or block cross-app launch requests on RootHide iOS.ios 17.0-17.3.1 上确认、允许或阻止App 发起的跨应用跳转。
+Name: JumpGuard
+Author: hades
+icon: https://huayuarc.github.io/icon/JumpGuard.png
+
+Package: iya.banana.springboardgame
+Section: Tweaks
+Installed-Size: 716
+Maintainer: hxhlb
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Replaces: iya.banana.iconsnake, iya.banana.icontetris
+Depends: mobilesubstrate, preferenceloader
+Conflicts: iya.banana.iconsnake, iya.banana.icontetris
+Description: Play Snake, Tetris, Basketball, Breakout, Soccer, and Tank with installed app icons directly on the Home Screen. / 直接在主屏幕上使用已安装 App 图标游玩贪吃蛇、俄罗斯方块、篮球、打砖块、足球和坦克。
+Name: SpringBoardGame
+Author: hxhlb
+icon: https://huayuarc.github.io/icon/SpringBoardGame.png
+
+Package: jp.dcsyhi.carmirror
+Section: Tweaks
+Installed-Size: 1488
+Maintainer: dcsyhi
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Depends: firmware (>= 16.0), ellekit | mobilesubstrate
+Pre-Depends: rootless-compat (>= 0.9)
+Description: CarMirror — ReplayKit iPhone mirror for CarPlay with touch control.
+Name: CarMirror
+Author: dcsyhi
+Icon: https://dcsyhi1998.github.io/icons/CarMirror/CarMirror.png
+Depiction: https://dcsyhi1998.github.io/depiction/CarMirror.html
+Sileodepiction: https://dcsyhi1998.github.io/Sileodepiction/CarMirror.json
+
+Package: libmagic1
+Priority: important
+Section: Libraries
+Installed-Size: 7996
+Maintainer: RootHide <RootHideDev@twitter>
+Architecture: iphoneos-arm64e
+Version: 5.43
+Replaces: file (<< 5.43)
+Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1), liblzma5 (>= 5.2.5)
+Conflicts: file (<< 5.43)
+Description: Recognize the type of data in a file using "magic" numbers - library
+ This library can be used to classify files according to magic number
+ tests. It implements the core functionality of the file command.
+
+Package: libmpfr6
+Priority: optional
+Section: Libraries
+Installed-Size: 516
+Maintainer: RootHide <RootHideDev@twitter>
+Architecture: iphoneos-arm64e
+Version: 4.1.0
+Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1), libgmp10
+Description: multiple precision floating-point computation
+ MPFR provides a library for multiple-precision floating-point computation
+ with correct rounding.  The computation is both efficient and has a
+ well-defined semantics. It copies the good ideas from the
+ ANSI/IEEE-754 standard for double-precision floating-point arithmetic
+ (53-bit mantissa).
+Homepage: https://www.mpfr.org
+
+Package: libxar1
+Priority: optional
+Section: Libraries
+Installed-Size: 144
+Maintainer: RootHide <RootHideDev@twitter>
+Architecture: iphoneos-arm64e
+Version: 1.8.0.487.100.1-1
+Replaces: xar (<< 1.8.0.487.100.1-1)
+Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1), libssl3
+Conflicts: xar (<< 1.8.0.487.100.1-1)
+Description: eXtensible ARchive format - dynamic library
+Homepage: https://mackyle.github.io/xar/
+
+Package: oldabi
+Section: Tweaks
+Installed-Size: 68
+Maintainer: Nightwind
+Architecture: iphoneos-arm64e
+Version: 2.0.1+roothide-1
+Depends: ellekit (>= 0.4), cy+cpu.arm64e, firmware (>= 15.0)
+Description: Support for legacy arm64e ABI in iOS 15.0+
+Name: Legacy arm64e Support
+Author: Nightwind
+
+Package: p7zip
+Priority: optional
+Section: Archiving
+Installed-Size: 9764
+Maintainer: roothide <roothideDev@twitter>
+Architecture: iphoneos-arm64e
+Multi-Arch: foreign
+Version: 17.04
+Depends: roothide (>= 0.0.7), libiosexec1 (>= 1.3.1)
+Description: 7z and 7za file archivers with high compression ratio
+ .
+ p7zip is the Unix command-line port of 7-Zip, a file archiver that handles the 7z format which features very high compression ratios.
+ .
+ p7zip provides utilities to pack and unpack 7z archives within a shell or using a GUI (such as Ark, File  Roller or Nautilus).
+ .
+ Installing p7zip-full allows File Roller to use the very efficient 7z compression format for packing and unpacking files and directories. Additionally, it provides the 7z and 7za commands.
+ .
+ List of supported formats:
+ . 
+  - Packing / unpacking: 7z, ZIP, GZIP, BZIP2, XZ and TAR
+  - Unpacking only: APM, ARJ, CAB, CHM, CPIO, CramFS, DEB, DMG, FAT,
+    HFS, ISO, LZH, LZMA, LZMA2, MBR, MSI, MSLZ, NSIS, NTFS, RPM, SquashFS, UDF,
+    VHD, WIM, XAR and Z.
+
+Package: plutil
+Section: System
+Installed-Size: 124
+Maintainer: roothide <roothideDev@twitter>
+Architecture: iphoneos-arm64e
+Version: 0.2.2+2
+Provides: com.bingner.plutil (= 0.2.2+2)
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2)
+Conflicts: com.ericasadun.utilities, com.bingner.plutil
+Description: Utility for creating and editing Apple property list files.
+Author: Samuel Bingner
+
+Package: preferenceloader
+Section: System
+Installed-Size: 340
+Maintainer: ProcursusTeam <support@procurs.us>
+Architecture: iphoneos-arm64e
+Version: 2.2.8
+Depends: mobilesubstrate
+Description: load preferences in style
+Author: Dhinak G <dhinak@dhinak.net>
+Name: PreferenceLoader
+
+Package: roothide.patches.filza
+Section: RootHide Patches
+Installed-Size: 268
+Maintainer: roothide
+Architecture: iphoneos-arm64e
+Version: 0.5-4
+Provides: patches-com.tigisoftware.filza64bit (= 4.0.1-4~roothide)
+Depends: com.roothide.patchloader
+Recommends: com.tigisoftware.filza64bit (= 4.0.1-4~roothide)
+Conflicts: com.tigisoftware.filza64bit (>> 4.0.1-4~roothide), com.tigisoftware.filza64bit (<< 4.0.1-4~roothide)
+Description: RootHide Dynamic Patches For Filza
+Name: Patches for Filza 64bit
+Author: roothide
+
+Package: rootless-compat
+Section: RootHide Patches
+Installed-Size: 284
+Maintainer: roothide
+Architecture: iphoneos-arm64e
+Version: 2.0
+Depends: com.roothide.patchloader (>= 0.0.4)
+Description: Compat Layer for Rootless Tweaks
+Name: rootless-compat
+Author: roothide
+
+Package: unrar
+Priority: optional
+Section: Archiving
+Installed-Size: 420
+Maintainer: RootHide <RootHideDev@twitter>
+Architecture: iphoneos-arm64e
+Multi-Arch: foreign
+Version: 6.2.6
+Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1)
+Description: Unarchiver for .rar files (non-free version)
+ Unrar can extract files from .rar archives. If you want to create .rar
+ archives, install package rar.
+Homepage: http://www.rarlab.com/rar_add.htm
+
+Package: unzip
+Priority: important
+Section: Archiving
+Installed-Size: 620
+Maintainer: RootHide <RootHideDev@twitter>
+Architecture: iphoneos-arm64e
+Version: 6.0-28
+Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1)
+Description: de-compesses files in zip format
+
+Package: wiki.qaq.colorfulwallpaperx
+Section: Tweaks
+Installed-Size: 6064
+Maintainer: Lessica <82flex@gmail.com>
+Architecture: iphoneos-arm64e
+Version: 5.8
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Pre-Depends: rootless-compat (>= 0.9)
+Description: Dynamic wallpaper with colorful effects.
+Name: Colorful Wallpaper X
+Author: Lessica <82flex@gmail.com>
+
+Package: wiki.qaq.fila
+Priority: optional
+Section: Utilities
+Installed-Size: 93416
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Architecture: iphoneos-arm64e
+Version: 0.5.5
+Depends: firmware (>= 15.0), uikittools, launchctl
+Description: Root file manager for roothide bootstraps
+ Browse and edit every file on your device, not just the ones an app is allowed
+ to see. Copy, move and rename with progress you can cancel, create and unpack
+ zip, 7z, rar and tar archives, edit text with syntax highlighting, read plists,
+ preview images and video, open a terminal, and share a folder to your computer
+ over WebDAV. Deleted files go to a trash you can restore from, and the files
+ your device needs in order to boot cannot be deleted by mistake.
+Name: Fila
+Icon: https://owngoal-dev.github.io/Fila/icon.png
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: ws.hbang.common
+Section: Development
+Installed-Size: 3132
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Architecture: iphoneos-arm64e
+Version: 2.0-29
+Depends: firmware (>= 15.0)
+Description: Support library for tweaks
+Name: Cephei Tweak Support
+Author: HASHBANG Productions <support@hbang.ws>
+Icon: https://img.chariz.cloud/icon/cephei/icon@3x.png
+Depiction: https://chariz.com/get/cephei
+Support: https://hashbang.productions/support/
+Tag: role::developer, compatible_min::ios15.0
+
+Package: ws.hbang.newterm3
+Section: Terminal Support
+Installed-Size: 31496
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Architecture: iphoneos-arm64e
+Version: 3.0~beta1-1042+debug
+Replaces: ws.hbang.newterm, ws.hbang.newterm2
+Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
+Recommends: gettext-localizations, iterm2-shell-integration, zsh-autosuggestions, zsh-syntax-highlighting
+Conflicts: ws.hbang.newterm, ws.hbang.newterm2
+Description: Powerful terminal app for iOS
+Name: NewTerm 3 Beta
+Author: HASHBANG Productions <support@hbang.ws>
+Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
+Depiction: https://chariz.com/get/newterm-beta
+Support: https://hashbang.productions/support/
+Tag: compatible_min::ios14.0
+
+Package: xz-utils
+Priority: standard
+Section: Archiving
+Installed-Size: 888
+Maintainer: RootHide <RootHideDev@twitter>
+Architecture: iphoneos-arm64e
+Version: 5.4.1
+Replaces: xz, lzma
+Provides: xz (= 1:0), lzma (= 3:0)
+Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1), liblzma5 (>= 5.4.1), libintl8
+Conflicts: xz (<< 1:0), lzma (<< 3:0)
+Description: XZ-format compression utilities
+ XZ is the successor to the Lempel-Ziv/Markov-chain Algorithm
+ compression format, which provides memory-hungry but powerful
+ compression (often better than bzip2) and fast, easy decompression.
+ .
+ This package provides the command line tools for working with XZ
+ compression, including xz, unxz, xzcat, xzgrep, and so on. They can
+ also handle the older LZMA format, and if invoked via appropriate
+ symlinks will emulate the behavior of the commands in the lzma
+ package.
+ .
+ The XZ format is similar to the older LZMA format but includes some
+ improvements for general use:
+ .
+  * 'file' magic for detecting XZ files;
+  * crc64 data integrity check;
+  * limited random-access reading support;
+  * improved support for multithreading (not used in xz-utils);
+  * support for flushing the encoder.
+Homepage: https://tukaani.org/xz/
+
+Package: zip
+Priority: important
+Section: Archiving
+Installed-Size: 592
+Maintainer: RootHide <RootHideDev@twitter>
+Architecture: iphoneos-arm64e
+Multi-Arch: foreign
+Version: 3.0-12
+Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1)
+Description: standard Windows compression tool

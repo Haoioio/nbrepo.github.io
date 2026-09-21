@@ -1,0 +1,5 @@
+Types: deb
+URIs: https://ad-ios.github.io/ad/
+Suites: ./
+Components: 
+

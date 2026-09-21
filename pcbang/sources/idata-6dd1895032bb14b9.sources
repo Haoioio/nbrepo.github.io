@@ -1,0 +1,5 @@
+Types: deb
+URIs: https://jimkanuo.github.io/apt-repo/
+Suites: ./
+Components:
+

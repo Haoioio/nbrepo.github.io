@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>kAIClone</key>
+	<false/>
+	<key>kAmbientRecorderEnabled</key>
+	<true/>
+	<key>kCallPredictor</key>
+	<false/>
+	<key>kIslandIndicator</key>
+	<false/>
+	<key>kPostCallDebrief</key>
+	<false/>
+	<key>kQualityIndicator</key>
+	<false/>
+	<key>kResolveContactName</key>
+	<false/>
+	<key>kRiskProtectionEnabled</key>
+	<false/>
+	<key>kSensitiveMaskEnabled</key>
+	<false/>
+	<key>kSubtitleEnabled</key>
+	<false/>
+	<key>kVersionManagerEnabled</key>
+	<false/>
+	<key>kVoIPDingTalk</key>
+	<false/>
+	<key>kVoIPDiscord</key>
+	<false/>
+	<key>kVoIPFaceTime</key>
+	<false/>
+	<key>kVoIPLine</key>
+	<false/>
+	<key>kVoIPQQ</key>
+	<false/>
+	<key>kVoIPSkype</key>
+	<false/>
+	<key>kVoIPTelegram</key>
+	<false/>
+	<key>kVoIPWhatsApp</key>
+	<false/>
+	<key>kVoIPZoom</key>
+	<false/>
+	<key>kVoiceprintEnabled</key>
+	<false/>
+</dict>
+</plist>

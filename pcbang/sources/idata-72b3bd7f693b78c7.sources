@@ -1,0 +1,5 @@
+Types: deb
+URIs: https://github.com/roothide/roothide.github.io/releases/download/1900/
+Suites: ./
+Components:
+

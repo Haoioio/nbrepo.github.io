@@ -1,0 +1,5 @@
+Types: deb
+URIs: https://repo.misty.moe/apt/
+Suites: ./
+Components: 
+

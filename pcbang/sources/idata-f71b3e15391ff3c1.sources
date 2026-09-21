@@ -1,0 +1,5 @@
+Types: deb
+URIs: https://apt.cydiabc.top/
+Suites: ./
+Components:
+

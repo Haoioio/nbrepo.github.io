@@ -1,0 +1,5 @@
+Types: deb
+URIs: https://alias20.gitlab.io/apt/
+Suites: ./
+Components: 
+

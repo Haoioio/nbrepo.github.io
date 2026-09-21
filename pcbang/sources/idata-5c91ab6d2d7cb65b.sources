@@ -1,0 +1,5 @@
+Types: deb
+URIs: https://langshiyunyi.github.io/my-repo/
+Suites: ./
+Components: 
+

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DisallowAll</key>
+	<integer>0</integer>
+	<key>EnableAll</key>
+	<true/>
+	<key>EnableForcetouch</key>
+	<true/>
+	<key>FollowIconColor</key>
+	<false/>
+	<key>SwitchStateColor</key>
+	<true/>
+	<key>UseNewTheme</key>
+	<true/>
+	<key>directionWay</key>
+	<string>2</string>
+	<key>isReady</key>
+	<integer>1</integer>
+	<key>scenesID</key>
+	<dict>
+		<key>tv.danmaku.bilianime</key>
+		<string>69053828-5048-4120-A6D6-CFC00705200D</string>
+	</dict>
+	<key>skipLaunchAds</key>
+	<true/>
+	<key>switchStateColor</key>
+	<data>
+	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
+	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwdVSRudWxs2A0ODxAREhMU
+	FRYXGBkaGxxfEBVVSUNvbG9yQ29tcG9uZW50Q291bnRXVUlHcmVlblZVSUJsdWVXVUlB
+	bHBoYVVOU1JHQlYkY2xhc3NVVUlSZWRcTlNDb2xvclNwYWNlEAQivkcE3iK+AXniIj+A
+	AABPEBMwLjk2MSAtMC4xOTQgLTAuMTI2gAIiP3X0RRAC0x4fICEiJFokY2xhc3NuYW1l
+	WCRjbGFzc2VzWyRjbGFzc2hpbnRzV1VJQ29sb3KiISNYTlNPYmplY3ShJVdOU0NvbG9y
+	AAgAEQAaACQAKQAyADcASQBMAFEAUwBXAF0AbgCGAI4AlQCdAKMAqgCwAL0AvwDEAMkA
+	zgDkAOYA6wDtAPQA/wEIARQBHAEfASgBKgAAAAAAAAIBAAAAAAAAACYAAAAAAAAAAAAA
+	AAAAAAEy
+	</data>
+	<key>tv.danmaku.bilianime</key>
+	<dict>
+		<key>enableForeground</key>
+		<string>true</string>
+		<key>enableIndicator</key>
+		<string>false</string>
+	</dict>
+</dict>
+</plist>

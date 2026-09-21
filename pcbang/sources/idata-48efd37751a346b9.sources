@@ -1,0 +1,5 @@
+Types: deb
+URIs: https://lacertosusrepo.github.io/
+Suites: ./
+Components: 
+

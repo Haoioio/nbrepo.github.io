@@ -1,0 +1,13 @@
+{
+    "class": "FeaturedBannersView",
+    "itemSize": "{330, 180}",
+    "itemCornerRadius": 10,
+    "banners": [
+        {
+            "url": "",
+            "title": "",
+            "package": "",
+            "hideShadow": true
+        }
+    ]
+}

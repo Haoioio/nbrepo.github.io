@@ -1,0 +1,5 @@
+Types: deb
+URIs: https://donato-fiore.github.io/repo/
+Suites: ./
+Components: 
+
